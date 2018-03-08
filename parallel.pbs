@@ -1,0 +1,21 @@
+#!/bin/bash --login
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=32
+#PBS -N _2017_cr_nojoin_no_golay_parallel
+#PBS -A d411-training
+echo "changing to workdir"
+cd $PBS_O_WORKDIR
+echo "exporting tmpdir"
+#export TMPDIR=~/qiime_tmp
+echo "loading python module"
+module load miniconda/python2
+# loading virtualenv
+echo "loading virtualenv"
+# NB qiime1 and not qiimel (number one not letter l)
+source activate qiime1
+export TMPDIR=~/qiime_tmp
+# picking OTUs
+echo "Picking OTUs with open reference"
+echo "Number of cores chosen is $cores"
+time pick_closed_reference_otus.py -f -i seqs.fna -o otus_$cores -a -O $cores
+source deactivate
