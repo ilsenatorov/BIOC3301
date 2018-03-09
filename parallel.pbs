@@ -1,7 +1,8 @@
 #!/bin/bash --login
-echo "changing to workdir"
-cd $PBS_O_WORKDIR
-echo "loading python module"
+#PBS -l walltime=00:30:00
+#PBS -l select=1:ncpus=64
+#PBS -N _2017_cr_nojoin_no_golay_parallel
+#PBS -A d411-training
 module load miniconda/python2
 echo "loading virtualenv"
 source activate qiime1

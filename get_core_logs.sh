@@ -11,3 +11,4 @@ for err in _2017_cr_nojoin_no_golay_parallel.e*; do
   grep "Number of cores" $out >> times.log
   grep "real" $err >> times.log
 done
+cat times.log
