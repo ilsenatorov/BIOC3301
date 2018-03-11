@@ -1,12 +1,17 @@
 ## Repo for working on the Cirrus HPC
 
+### Important branches info
+
+Branch [master](https://github.com/ilsenatorov/cirrus_BIOC3301/tree/master) has all the data, including what was created outside cirrus, while branch [cirr_local](https://github.com/ilsenatorov/cirrus_BIOC3301/tree/cirr_local) can be cloned directly to the machine, since it only contains scripts that are run on the HPC
+
+
 ### How to use the scripts
 
 run `bash <command_name>` from the terminal
 
 ### Commands available
 
-#### _get_core_logs.sh_
+#### get_core_logs.sh
 
 Extracts the real run times from all the logs in the directory, together with the number of cores, puts them all in the times.log file in the current dir
 Output looks like this:
