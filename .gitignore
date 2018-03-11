@@ -1,5 +1,6 @@
 .*
 !.gitignore
+!.bashrc
 qiime_tmp/
 otus*/
 _2017_cr_nojoin_no_golay_parallel.*
