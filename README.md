@@ -43,7 +43,7 @@ Number of cores chosen is 32
 real    0m38.918s        
 ```
 
-which can then be used to calculate [efficiency](../master/Benchmark_efficiency.ipynb)
+which can then be used to calculate [efficiency](../master/benchmarks/Benchmark_efficiency.ipynb)
 
 #### run_parall_benchm.sh
 
