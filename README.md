@@ -4,6 +4,10 @@
 
 run `bash <command_name>` from the terminal
 
+## New
+
+added the .bashrc file. It is the file that tells the system what commands to run on launch, so you can activate qiime1 and add python module on launch
+
 ### Commands available
 
 #### _get_core_logs.sh_
