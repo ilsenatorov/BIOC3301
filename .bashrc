@@ -11,6 +11,6 @@ fi
 # User specific aliases and functions
 module load miniconda/python2
 source activate qiime1
-alias errout="cat _2017_cr_nojoin_no_golay_parallel.*"
-alias rmout="rm _2017_cr_nojoin_no_golay_parallel.*"
+alias errout="cat parallel_benchmarking_3301.*"
+alias rmout="rm parallel_benchmarking_3301.*"
 export TMPDIR=~/qiime_tmp/

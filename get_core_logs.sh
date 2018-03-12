@@ -6,7 +6,7 @@
 
 
 
-for err in _2017_cr_nojoin_no_golay_parallel.e*; do
+for err in parallel_benchmarking_3301.e*; do
   out=$(echo $err | rev | sed 's/e/o/' | rev)
   grep "Number of cores" $out >> times.log
   grep "real" $err >> times.log
