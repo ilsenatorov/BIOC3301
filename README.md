@@ -43,13 +43,13 @@ Number of cores chosen is 32
 real    0m38.918s        
 ```
 
-which can then be used to calculate [efficiency](../master/benchmarks/Benchmark_efficiency.ipynb)
+which can then be used to calculate [efficiency](.//benchmarks/Benchmark_efficiency.ipynb)
 
 #### run_parall_benchm.sh
 
 Runs the benchmarking script (parallel.cbs) with 1,2,4,8,16,24 and 32 cores
 
-#### parallel.cbs 
+#### parallel.cbs
 
 Measures time it took to run the qiime script pick_closed_reference_otus.py, takes the number of cores as the first positional argument.
 _Example:_ `qsub -v "cores=4" parallel.cbs` will run the code with 4 cores
@@ -60,4 +60,16 @@ _Example:_ `qsub -v "cores=4" parallel.cbs` will run the code with 4 cores
 
 ### .bashrc file
 
-The [.bashrc](../master/.bashrc) file is run every time you access the terminal on Cirrus, so you can put commands you need to run on start-up there. Additionally, aliases for commands that are used often can be created there
+The [.bashrc](.//.bashrc) file is run every time you access the terminal on Cirrus, so you can put commands you need to run on start-up there. Additionally, aliases for commands that are used often can be created there
+
+## Results
+
+### Benchmarking
+
+The [benchmarking Jupyter Notebook](.//benchmarks/Benchmark_efficiency.ipynb) calculates efficiency from the times of running a process on different cores, it takes data from [the csv file with times](.//benchmarks/parallel_benchmark.csv) and plots times and calculates efficiency, putting results into the [output csv file](./benchmarks/parallel_benchmark_output.csv).
+
+![Cores-times](./benchmarks/parallel_efficiency_plot.png)
+
+### Locations
+
+[Jupyter Notebook](./locations/location_plotter.ipynb) that takes data from the online spreadsheet and plots the locations where soil samples were taken onto a [Google Map](./locations/soil_samples_map.html).
