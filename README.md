@@ -72,4 +72,5 @@ The [benchmarking Jupyter Notebook](.//benchmarks/Benchmark_efficiency.ipynb) ca
 
 ### Locations
 
-[Jupyter Notebook](./locations/location_plotter.ipynb) that takes data from the online spreadsheet and plots the locations where soil samples were taken onto a [Google Map](https://rawgit.com/ilsenatorov/cirrus_BIOC3301/master/locations/soil_samples_map.html).
+~~[Jupyter Notebook](./locations/location_plotter.ipynb) that takes data from the online spreadsheet and plots the locations where soil samples were taken onto a [Google Map](https://rawgit.com/ilsenatorov/cirrus_BIOC3301/master/locations/soil_samples_map.html).~~
+
