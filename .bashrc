@@ -14,3 +14,4 @@ source activate qiime1
 alias errout="cat parallel_benchmarking_3301.*"
 alias rmout="rm parallel_benchmarking_3301.*"
 export TMPDIR=~/qiime_tmp/
+alias la="ls -la"
