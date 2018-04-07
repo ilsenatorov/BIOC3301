@@ -54,9 +54,6 @@ Runs the benchmarking script (parallel.cbs) with 1,2,4,8,16,24 and 32 cores
 Measures time it took to run the qiime script pick_closed_reference_otus.py, takes the number of cores as the first positional argument.
 _Example:_ `qsub -v "cores=4" parallel.cbs` will run the code with 4 cores
 
-#### Other useful commands
-* `rm _2017_cr_nojoin_no_golay_parallel.*` will remove all files that are created by benchmarking script (that start with _2017_cr_ etc)
-* `rm -r otus*` will remove all the otus directories created by the script _make sure they don't have any important info!_
 
 ### .bashrc file
 
@@ -66,15 +63,18 @@ The [.bashrc](.//.bashrc) file is run every time you access the terminal on Cirr
 
 ### Benchmarking
 
-The [benchmarking Jupyter Notebook](.//benchmarks/Benchmark_efficiency.ipynb) calculates efficiency from the times of running a process on different cores, it takes data from [the csv file with times](.//benchmarks/parallel_benchmark.csv) and plots times and calculates efficiency, putting results into the [output csv file](./benchmarks/parallel_benchmark_output.csv).
+The [benchmarking Jupyter Notebook](./benchmarks/Benchmark_efficiency.ipynb) calculates efficiency from the times of running a process on different cores, it takes data from [the csv file with times](./benchmarks/closed_otus.csv) and plots times and calculates efficiency, putting results into the [output csv file](./benchmarks/closed_otus_out.csv).
 
-![Cores-times](./benchmarks/parallel_efficiency_plot.png)
+It uses the module __bench_module.py__, which is located in the same directory, but can be used on its own.
+
+##### Picking closed otus benchmarking plot
+
+![Cores-times](./benchmarks/closed_otus_out.png)
+
+##### Picking de novo otus benchmarking plot
+
+![De-Novo](./benchmarks/de_novo_otus_out.png)
 
 ### Locations
 
 [Jupyter Notebook](./locations/location_plotter.ipynb) that takes data from the online spreadsheet and plots the locations where soil samples were taken onto a [Google Map](./locations/soil_samples_map.html). However, to view the map propely, you need to download an open it first.
-
-### Most important
-
-[this link](https://youtu.be/WF34N4gJAKE)
-
