@@ -3,13 +3,16 @@
 #PBS -l select=1:ncpus=2
 #PBS -N split_fastq
 #PBS -A d411-training
+
+cd $PBS_O_WORKDIR
 module load miniconda/python2
 source activate qiime1
 export TMPDIR=~/qiime_tmp
+
 time split_libraries_fastq.py \
 -m ~/18/map_corrected.tsv \
--i ~/18/Read1.fastq.gz \
--b ~/18/Index.fastq.gz \
+-i ~/18/raw_data/Read1.fastq.gz \
+-b ~/18/raw_data/Index.fastq.gz \
 -o ~/18/split_data/ \
 -q 19 \
 --barcode_type 12
