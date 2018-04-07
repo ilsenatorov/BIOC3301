@@ -2,4 +2,11 @@
 !.gitignore
 !.bashrc
 qiime_tmp/
+otus*/
+*.gz
+*.fna
+16/
+17/
+18/
+*.log
 *__*__*
