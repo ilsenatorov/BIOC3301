@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #PBS -l walltime=01:00:00
 #PBS -l select=1:ncpus=2
-#PBS -N phylogeny
+#PBS -N filter
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -9,8 +9,10 @@ module load miniconda/python2
 source activate qiime1
 export TMPDIR=~/qiime_tmp
 
-/usr/bin/time -f %e make_phylogeny.py \
--i ~/18/filter_align/rep_set_aligned_pfiltered.fasta \
--o ~/18/tree/my_tree.tre \
--l ~/18/tree/tree.log
+/usr/bin/time -f %e \
+filter_alignment.py \
+-i ~/18/alignment/rep_set_aligned.fasta \
+-o ~/18/filter_align
 
+
+source deactivate

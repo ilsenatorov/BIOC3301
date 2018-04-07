@@ -12,7 +12,6 @@ export TMPDIR=~/qiime_tmp
 time parallel_align_seqs_pynast.py \
 -i ~/18/pick_rep_set/rep_set.fasta \
 -o ~/18/alignment \
--a \
 -O 8
 
 source deactivate

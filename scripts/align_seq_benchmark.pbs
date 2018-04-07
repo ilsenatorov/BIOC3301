@@ -12,7 +12,7 @@ export TMPDIR=~/qiime_tmp
 echo "Number of cores $cores"
 
 time parallel_align_seqs_pynast.py \
--i ~/18/pick_rep_set/rep_set.fasta \
+-i ~/18/pick_rep_set/rep_set_5k.fasta \
 -o ~/18/alignment_$cores \
 -O $cores
 
