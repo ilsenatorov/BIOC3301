@@ -1,0 +1,15 @@
+#!/bin/bash --login
+#PBS -l walltime=02:00:00
+#PBS -l select=1:ncpus=2
+#PBS -N split_fastq
+#PBS -A d411-training
+module load miniconda/python2
+source activate qiime1
+export TMPDIR=~/qiime_tmp
+time split_libraries_fastq.py \
+-m ~/18/map_corrected.tsv \
+-i ~/18/Read1.fastq.gz \
+-b ~/18/Index.fastq.gz \
+-o ~/18/split_data/ \
+-q 19 \
+--barcode_type 12
