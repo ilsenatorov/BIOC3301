@@ -24,3 +24,7 @@
   * __Time:__ 166.25s
   * __Logs:__ ~/18/tree/tree.log
   * __Output directory:__ ~/18/my_tree/
+7. Run [core_div_analyses.pbs](./scripts/core_div_analyses.pbs)
+  * __Time:__ 496.71s
+  * __Logs:__ ~/core_div/log_20180408110240.txt
+  * __Output directory:__ ~/18/core_div

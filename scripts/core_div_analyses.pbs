@@ -9,11 +9,11 @@ module load miniconda/python2
 source activate qiime1
 export TMPDIR=~/qiime_tmp
 
-time core_diversity_analyses.py \
--o ~/18/cdout_600 \
--i ~/18/otus/otu_table.biom \
+/usr/bin/time -f %e core_diversity_analyses.py \
+-o ~/18/core_div \
+-i ~/18/closed_otus/otu_table.biom \
 -m ~/18/map_corrected.tsv \
--t ~/18/otus/97_otus.tree \
+-t ~/18/closed_otus/97_otus.tree \
 -e 600 \
 -a \
 -O 24
