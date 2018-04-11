@@ -28,3 +28,7 @@
   * __Time:__ 496.71s
   * __Logs:__ ~/core_div/log_20180408110240.txt
   * __Output directory:__ ~/18/core_div
+8. Run [make_phylogen_clearcut.pbs](./scripts/make_phylogen_clearcut.pbs)
+  * __Time:__ 299.85s
+  * __Logs:__ None
+  * __Output directory:__ ~/18/tree/
