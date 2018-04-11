@@ -1,5 +1,9 @@
 # Workflow
 
+1. Run [validate_mapping.pbs](./scripts/validate_mapping.pbs)
+__Time:__ 31.02s
+__Logs:__ ~/18/map_validation/map_incomplete.tsv.log
+__Output directory:__ ~/18/map_validation/
 1. Run [split_libraries.pbs](./scripts/split_libraries.pbs)
 __Time:__ 72m55.923s
 __Logs:__ ~/18/split_data/split_library_log.txt
