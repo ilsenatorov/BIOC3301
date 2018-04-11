@@ -1,4 +1,4 @@
-epo for working on the Cirrus HPC
+# Repo for working on the Cirrus HPC
 
 ## Important branches info!
 
@@ -21,7 +21,7 @@ This will put the scripts into the home directory on Cirrus
 
 runs a script with diffeent number of cores. Takes the location of the script to test as first positional argument - `./benchmark_script.sh <script to benchmark>`. Make sure that <script to benchmark> is using a truncated dataset, for example __seqs_500k.fna__ instead of __seqs.fna__. 
 
-#### get_logs.sh
+### get_logs.sh
 
 Collects all the logs created by __benchmark_script.sh__ and creates a logfile from them. Takes the names of logfiles without the extensions but with the dot, for example `./get_logs.sh my_benchmarking_logs.`. __Won't work without the dot at the end!__
 
