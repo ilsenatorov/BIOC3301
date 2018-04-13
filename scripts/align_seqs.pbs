@@ -6,12 +6,12 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-source activate qiime1
 export TMPDIR=~/qiime_tmp
+source activate qiime1
 
-time parallel_align_seqs_pynast.py \
--i ~/18/pick_rep_set/rep_set.fasta \
--o ~/18/alignment \
+/usr/bin/time -f %e parallel_align_seqs_pynast.py \
+-i ~/18/filtering/515rcbc20.fna \
+-o ~/18/filtering/515rcbc \
 -O 8
 
 source deactivate
