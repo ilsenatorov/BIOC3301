@@ -25,6 +25,10 @@ runs a script with diffeent number of cores. Takes the location of the script to
 
 Collects all the logs created by __benchmark_script.sh__ and creates a logfile from them. Takes the names of logfiles without the extensions but with the dot, for example `./get_logs.sh my_benchmarking_logs.`. __Won't work without the dot at the end!__
 
+### filter_barcode.py
+
+filters the seqs.fna or any other file in that format to only have samples from one team/with one barcode. Run with `./filter_barcode.py -i <location of input fna file> -o <output file> -b <barcode number, for 515rcbc20 it will be 20>`. For more info run `./filter_barcode.py --help`.
+
 ## Scripts folder
 
 Has the scripts I used for working with the dataset, the ones that start with and underscore _ are unfinished. Has a useful pbs_template which has the parts of script that should be present in all PBS scripts.
