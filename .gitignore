@@ -12,3 +12,7 @@ otus*/
 *.e*
 *.o*
 *__*__*
+Utils/
+ChimeraSlayer/
+silva_db/
+ncbi_nt_database/

@@ -36,3 +36,19 @@ __Output directory:__ ~/18/core_div
 __Time:__ 299.85s
 __Logs:__ None
 __Output directory:__ ~/18/tree/
+
+### Silva run
+
+
+1. Run [validate_mapping.pbs](./scripts/validate_mapping.pbs)
+__Time:__ 31.02s
+__Logs:__ ~/18/map_validation/map_incomplete.tsv.log
+__Output directory:__ ~/18/map_validation/
+1. Run [split_libraries.pbs](./scripts/split_libraries.pbs)
+__Time:__ 72m55.923s
+__Logs:__ ~/18/split_data/split_library_log.txt
+__Output directory:__ ~/18/split_data/
+1. Run [pick_silva_otus.pbs](./scripts/pick_silva_OTU.pbs)
+__Time:__ 678.98s
+__Logs:__ None
+__Output directory:__ ~/18/silva_otus
