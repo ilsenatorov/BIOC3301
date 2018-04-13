@@ -10,8 +10,7 @@ fi
 
 # User specific aliases and functions
 module load miniconda/python2
+export TMPDIR=~/qiime_tmp
 source activate qiime1
-export TMPDIR=~/qiime_tmp/
 alias la="ls -lha"
 alias st="qstat -u ilsenato"
-
