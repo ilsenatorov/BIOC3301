@@ -13,6 +13,7 @@ otus*/
 *.o*
 *__*__*
 Utils/
-ChimeraSlayer/
 silva_db/
 ncbi_nt_database/
+microbiomeutils/
+taxonomy_assignment/

@@ -18,6 +18,4 @@ alias st="qstat -u ilsenato"
 
 ### Env
 
-export SOURCETRACKER_PATH='/lustre/home/d411/ilsenato/sourcetracker'
-PATH=$PATH:~/ChimeraSlayer
-PATH=$PATH:~/ChimeraSlayer/ChimeraSlayer.pl
+export PATH=$PATH:~/microbiomeutils/ChimeraSlayer
