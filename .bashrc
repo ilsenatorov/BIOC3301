@@ -20,3 +20,4 @@ alias st="qstat -u ilsenato"
 
 export SOURCETRACKER_PATH='/lustre/home/d411/ilsenato/sourcetracker'
 PATH=$PATH:~/ChimeraSlayer
+PATH=$PATH:~/ChimeraSlayer/ChimeraSlayer.pl
