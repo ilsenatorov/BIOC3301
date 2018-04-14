@@ -9,6 +9,7 @@ module load miniconda/python2
 export TMPDIR=~/qiime_tmp
 source activate qiime1
 
-/usr/bin/time -f %e 
+/usr/bin/time -f %e \
+
 
 source deactivate

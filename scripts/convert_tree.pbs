@@ -6,8 +6,7 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-source activate qiime1
 export TMPDIR=~/qiime_tmp
+source activate qiime1
 
 convert ~/tree.svg -resize 5000 ~/tree.jpg
-

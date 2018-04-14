@@ -6,8 +6,10 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-source activate qiime1
 export TMPDIR=~/qiime_tmp
+source activate qiime1
+
+
 time pick_de_novo_otus.py \
 -i ~/18/seqs.fna \
 -o ~/18/de_novo_otus \

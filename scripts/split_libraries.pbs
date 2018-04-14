@@ -6,8 +6,9 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-source activate qiime1
 export TMPDIR=~/qiime_tmp
+source activate qiime1
+
 
 time split_libraries_fastq.py \
 -m ~/18/map_corrected.tsv \

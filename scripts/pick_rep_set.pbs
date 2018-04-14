@@ -6,8 +6,9 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-source activate qiime1
 export TMPDIR=~/qiime_tmp
+source activate qiime1
+
 
 time pick_rep_set.py \
 -i ~/18/closed_otus/uclust_ref_picked_otus/seqs_otus.txt \

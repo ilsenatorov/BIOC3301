@@ -19,11 +19,13 @@ This will put the scripts into the home directory on Cirrus
 
 ### benchmark_script.sh
 
-runs a script with diffeent number of cores. Takes the location of the script to test as first positional argument - `./benchmark_script.sh <script to benchmark>`. Make sure that <script to benchmark> is using a truncated dataset, for example __seqs_500k.fna__ instead of __seqs.fna__. 
+runs a script with diffeent number of cores. Takes the location of the script to test as first positional argument - `./benchmark_script.sh <script to benchmark>`. Make sure that script to benchmark is using a truncated dataset, for example __seqs_500k.fna__ instead of __seqs.fna__.
 
 ### get_logs.sh
 
-Collects all the logs created by __benchmark_script.sh__ and creates a logfile from them. Takes the names of logfiles without the extensions but with the dot, for example `./get_logs.sh my_benchmarking_logs.`. __Won't work without the dot at the end!__
+Collects all the logs created by __benchmark_script.sh__ and creates a logfile from them. Takes the names of logfiles without the extensions but with the dot, for example `./get_logs.sh my_benchmarking_logs.` 
+
+__Won't work without the dot at the end!__
 
 ### filter_barcode.py
 
@@ -31,24 +33,4 @@ filters the seqs.fna or any other file in that format to only have samples from 
 
 ## Scripts folder
 
-Has the scripts I used for working with the dataset, the ones that start with and underscore _ are unfinished. Has a useful pbs_template which has the parts of script that should be present in all PBS scripts.
-
-## Results
-
-### Benchmarking
-
-The [benchmarking Jupyter Notebook](./benchmarks/Benchmark_efficiency.ipynb) calculates efficiency from the times of running a process on different cores, it takes data from [the csv file with times](./benchmarks/closed_otus.csv) and plots times and calculates efficiency, putting results into the [output csv file](./benchmarks/closed_otus_out.csv).
-
-It uses the module __bench_module.py__, which is located in the same directory, but can be used on its own.
-
-##### Picking closed otus benchmarking plot
-
-![Cores-times](./benchmarks/closed_otus_out.png)
-
-##### Picking de novo otus benchmarking plot
-
-![De-Novo](./benchmarks/de_novo_otus_out.png)
-
-### Locations
-
-[Jupyter Notebook](./locations/location_plotter.ipynb) that takes data from the online spreadsheet and plots the locations where soil samples were taken onto a [Google Map](./locations/soil_samples_map.html). However, to view the map propely, you need to download an open it first.
+Has the scripts I used for working with the dataset, the ones that start with and underscore _ are unfinished. Has a useful [template](./scripts/template) which has the parts of script that should be present in all PBS scripts.
