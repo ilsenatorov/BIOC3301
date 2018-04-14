@@ -13,8 +13,10 @@ source activate qiime1
 /usr/bin/time -f %e \
 split_libraries_fastq.py \
 -m ~/18/map.tsv \
--i ~/18/raw_data/Read1.fastq.gz \
--b ~/18/raw_data/Index.fastq.gz \
+-i ~/18/joined/fastqjoin.join.fastq \
+-b ~/18/joined/fastqjoin.join_barcodes.fastq \
 -o ~/18/split_data/ \
 -q 19 \
+--rev_comp_barcode \
+--rev_comp_mapping_barcodes \
 --barcode_type 12
