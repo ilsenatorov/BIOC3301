@@ -14,7 +14,10 @@ source activate qiime1
 assign_taxonomy.py \
 -i ~/18/silva_otus/rep_set.fasta \
 -r ~/silva_db/rep_set/rep_set_16S_only/97/silva_132_97_16S.fna \
--t ~/silva_db/taxonomy/16S_only/97/majority_taxonomy_all_levels.txt \
--m blast
+-t ~/silva_db/taxonomy/16S_only/97/majority_taxonomy_all_levels.txt
 
 source deactivate
+
+#
+#assign_taxonomy.py -i repr_set_seqs.fasta -r ref_seq_set.fna -t id_to_taxonomy.txt
+
