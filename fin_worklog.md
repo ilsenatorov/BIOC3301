@@ -31,4 +31,20 @@
   * Time: 2302.89s
 1. Filter the otu table so it contains only otus with  7+ samples usin [filter_sample.pbs](./fin_scripts/filter_sample.pbs)
 1. [Convert the biom table to tsv](./fin_scripts/convert_tsv.pbs)
+  * Time: 6139.31s
 1. Run [track_source.pbs](./fin_scripts/track_source.pbs)
+  * Ran for 3 hours with no results
+
+### Using [sourcetracker 2](https://github.com/biota/sourcetracker2)
+1. Install sourcetracker 2 according to instructions
+1. Run (batch_sourcetrack.pbs)[./fin_scirpts/batch_sourcetrack.pbs] 
+  * Info - runs 5 scripts - see code for more info
+  * Time:
+    * Merging OTU tables: 811.77s
+    * Filter table according to map: 65.81s
+    * Filter OTU table: 64.35s 
+    * Convert table to tsv: 2138.06s
+  * Output: ~/sourcetracker
+1. Run [run_sourcetrack.pbs](./fin_scripts/run_sourcetrack.pbs) __note the different environment__
+  * Time:
+  * Output:
