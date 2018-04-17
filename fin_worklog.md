@@ -19,3 +19,16 @@
 1. Run [corediv.pbs](./fin_scripts/corediv.pbs)
   * Time: 887.30
   * Output: ~/18/core_div
+1. Run [filter_sample.pbs](./fin_scripts/filter_sample.pbs) with `sample=515rcbc20`
+  * Time: 519.93
+  * Output: ~/18/filtered_otus/515rcbc20/
+
+### Sourcetrack
+1. Download the EMP data [1](ftp://ftp.microbio.me/emp/release1/otu_tables/closed_ref_silva/emp_cr_silva_16S_123.qc_filtered.biom) [2](ftp://ftp.microbio.me/emp/release1/mapping_files/emp_qiime_mapping_qc_filtered.tsv)
+1. Parse the EMP mapping file using [this script](./fin_scripts/parse_mapping.py)
+1. Manually add the original mapping file to the EMP one, adding __sink__ in the SourceSink column
+1. Merge otu tables using [merge_otu.pbs](./fin_scripts/merge_otu.pbs)
+  * Time: 2302.89s
+1. Filter the otu table so it contains only otus with  7+ samples usin [filter_sample.pbs](./fin_scripts/filter_sample.pbs)
+1. [Convert the biom table to tsv](./fin_scripts/convert_tsv.pbs)
+1. Run [track_source.pbs](./fin_scripts/track_source.pbs)

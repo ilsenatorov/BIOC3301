@@ -11,10 +11,10 @@ source activate qiime1
 
 /usr/bin/time -f %e \
 pick_closed_reference_otus.py \
--r ~/silva_db/rep_set/rep_set_16S_only/97/silva_132_97_16S.fna \
+-r ~/ext_data/silva_db/rep_set/rep_set_16S_only/97/silva_132_97_16S.fna \
 -i ~/18/split_data/seqs.fna \
 -o ~/18/silva_otus \
--t ~/silva_db/taxonomy/16S_only/97/majority_taxonomy_7_levels.txt \
+-t ~/ext_data/silva_db/taxonomy/16S_only/97/majority_taxonomy_7_levels.txt \
 -a \
 -O 8
 

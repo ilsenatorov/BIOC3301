@@ -21,3 +21,4 @@ alias st="qstat -u ilsenato"
 export PATH=$PATH:~/microbiomeutils/ChimeraSlayer
 export PATH=$PATH:~/taxonomy_assignment/ncbi-blast-2.7.1+/bin
 export PATH=$PATH:~/blast-2.2.22/bin
+export SOURCETRACKER_PATH='~/sourcetracker/'

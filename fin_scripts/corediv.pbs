@@ -14,7 +14,7 @@ core_diversity_analyses.py \
 -o ~/18/core_div \
 -i ~/18/silva_otus/otu_table.biom \
 -m ~/18/map.tsv \
--t ~/silva_db/trees/97/97_otus.tre \
+-t ~/ext_data/silva_db/trees/97/97_otus.tre \
 -e 600 \
 -a \
 -O 24
