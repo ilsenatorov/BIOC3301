@@ -23,7 +23,7 @@
   * Time: 519.93
   * Output: ~/18/filtered_otus/515rcbc20/
 
-### Sourcetrack
+### Sourcetracker
 1. Download the EMP data [1](ftp://ftp.microbio.me/emp/release1/otu_tables/closed_ref_silva/emp_cr_silva_16S_123.qc_filtered.biom) [2](ftp://ftp.microbio.me/emp/release1/mapping_files/emp_qiime_mapping_qc_filtered.tsv)
 1. Parse the EMP mapping file using [this script](./fin_scripts/parse_mapping.py)
 1. Manually add the original mapping file to the EMP one, adding __sink__ in the SourceSink column
@@ -35,16 +35,16 @@
 1. Run [track_source.pbs](./fin_scripts/track_source.pbs)
   * Ran for 3 hours with no results
 
-### Using [sourcetracker 2](https://github.com/biota/sourcetracker2)
-1. Install sourcetracker 2 according to instructions
-1. Run (batch_sourcetrack.pbs)[./fin_scirpts/batch_sourcetrack.pbs] 
-  * Info - runs 5 scripts - see code for more info
+### [Sourcetracker 2](https://github.com/biota/sourcetracker2)
+1. Install sourcetracker 2, creating the st2 environment in the process
+1. Run [batch_sourcetrack.pbs](./fin_scirpts/batch_sourcetrack.pbs)
+  * __NB:__ this is a batch script, so it runs 4 script in one go. Look at the code for more info.
   * Time:
     * Merging OTU tables: 811.77s
     * Filter table according to map: 65.81s
-    * Filter OTU table: 64.35s 
+    * Filter OTU table: 64.35s
     * Convert table to tsv: 2138.06s
   * Output: ~/sourcetracker
-1. Run [run_sourcetrack.pbs](./fin_scripts/run_sourcetrack.pbs) __note the different environment__
+1. Run [run_sourcetrack.pbs](./fin_scripts/run_sourcetrack.pbs). __NB:__ uses st2 environment
   * Time:
   * Output:

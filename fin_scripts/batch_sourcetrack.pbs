@@ -6,7 +6,6 @@
 
 cd $PBS_O_WORKDIR
 module load miniconda/python2
-module load R-3.3.1-gcc-6.2.0-zjrjm3s
 export TMPDIR=~/qiime_tmp
 source activate qiime1
 
