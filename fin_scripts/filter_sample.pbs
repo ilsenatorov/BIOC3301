@@ -9,13 +9,12 @@ module load miniconda/python2
 export TMPDIR=~/qiime_tmp
 source activate qiime1
 
-echo "SampleID is - $sample"
 
 /usr/bin/time -f %e \
-filter_otus_by_sample.py \
--i ~/18/silva_otus/uclust_ref_picked_otus/seqs_otus.txt \
--f ~/18/split_data/seqs.fna \
--s $sample \
--o ~/18/filtered_otus/$sample
+filter_samples_from_otu_table.py \
+-i ~/18/silva_otus/otu_table.biom \
+-o ~/18/515rcbc20.biom \
+--sample_id_fp ~/18/filter_515.txt
+
 
 source deactivate

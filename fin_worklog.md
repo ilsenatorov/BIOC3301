@@ -40,11 +40,13 @@
 1. Run [batch_sourcetrack.pbs](./fin_scirpts/batch_sourcetrack.pbs)
   * __NB:__ this is a batch script, so it runs 4 script in one go. Look at the code for more info.
   * Time:
-    * Merging OTU tables: 811.77s
-    * Filter table according to map: 65.81s
-    * Filter OTU table: 64.35s
-    * Convert table to tsv: 2138.06s
+    * Merging OTU tables
+    * 919.09
+    * Filter table according to map
+    * 97.70
+    * Filter OTUs from table
+    * 47.77
   * Output: ~/sourcetracker
 1. Run [run_sourcetrack.pbs](./fin_scripts/run_sourcetrack.pbs). __NB:__ uses st2 environment
-  * Time:
-  * Output:
+  * Time: 2040.81s
+  * Output: ~/sourcetracker/tracked

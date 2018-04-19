@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #PBS -l walltime=01:00:00
 #PBS -l select=1:ncpus=2
-#PBS -N insert_name
+#PBS -N fasta_filt
 #PBS -A d411-training
 
 cd $PBS_O_WORKDIR
@@ -9,6 +9,11 @@ module load miniconda/python2
 export TMPDIR=~/qiime_tmp
 source activate qiime1
 
-/usr/bin/time -f %e 
+/usr/bin/time -f %e \
+filter_fasta.py \
+-f ~/18/split_data/seqs.fna \
+-o ~/18/filtered_seqs.fna \
+-s 515rcbc20
+
 
 source deactivate
