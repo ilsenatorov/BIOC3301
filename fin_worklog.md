@@ -17,11 +17,15 @@
   * Time: 430.24s
   * Output: ~/18/silva_otus
 1. Run [corediv.pbs](./fin_scripts/corediv.pbs)
-  * Time: 887.30
+  * Time: 887.30s
   * Output: ~/18/core_div
-1. Run [filter_sample.pbs](./fin_scripts/filter_sample.pbs) with `sample=515rcbc20`
-  * Time: 519.93
-  * Output: ~/18/filtered_otus/515rcbc20/
+1. Run [align.pbs](./fin_scripts/align.pbs)
+  * Time: 2309.78s
+  * Output: ~/18/aligned/
+1. Run [filter_alignment.pbs](./fin_scripts/filter_alignment.pbs)
+  * Time: 288.83s
+  * Output: ~/18/filtered_aligned/
+
 
 ### Sourcetracker
 1. Download the EMP data [1](ftp://ftp.microbio.me/emp/release1/otu_tables/closed_ref_silva/emp_cr_silva_16S_123.qc_filtered.biom) [2](ftp://ftp.microbio.me/emp/release1/mapping_files/emp_qiime_mapping_qc_filtered.tsv)
