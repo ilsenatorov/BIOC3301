@@ -43,13 +43,14 @@
 1. Install sourcetracker 2, creating the st2 environment in the process
 1. Run [batch_sourcetrack.pbs](./fin_scirpts/batch_sourcetrack.pbs)
   * __NB:__ this is a batch script, so it runs 4 script in one go. Look at the code for more info.
-  * Time:
     * Merging OTU tables
-    * 919.09
+    * 1617.08s
     * Filter table according to map
-    * 97.70
-    * Filter OTUs from table
-    * 47.77
+    * 111.72s
+    * Filter OTUs present in less than 500
+    * 97.69s
+    * Filter samples less than 1300
+    * 56.28s
   * Output: ~/sourcetracker
 1. Run [run_sourcetrack.pbs](./fin_scripts/run_sourcetrack.pbs). __NB:__ uses st2 environment
   * Time: 2040.81s
