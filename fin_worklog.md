@@ -41,7 +41,7 @@
 
 ### [Sourcetracker 2](https://github.com/biota/sourcetracker2)
 1. Install sourcetracker 2, creating the st2 environment in the process
-1. Run [batch_sourcetrack.pbs](./fin_scirpts/batch_sourcetrack.pbs)
+1. Run [batch_sourcetrack.pbs](./fin_scripts/batch_sourcetrack.pbs)
   * __NB:__ this is a batch script, so it runs 4 script in one go. Look at the code for more info.
     * Merging OTU tables
     * 1617.08s
