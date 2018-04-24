@@ -1,0 +1,714 @@
+#SampleID	Description	title	latitude_deg	longitude_deg	country	env_biome	ph
+632.Agricultural.soil.soy	Agricultural soil - soy, Ontario	Canadian MetaMicroBiome Initiative samples	43.63	-80.39	GAZ:Canada	cropland biome	7.6
+632.Agricultural.soil.wheat	Agricultural soil - wheat, Ontario	Canadian MetaMicroBiome Initiative samples	43.64	-80.41	GAZ:Canada	cropland biome	7.4
+632.Arctic.Tundra.1	Arctic Tundra 1, Darring Lake	Canadian MetaMicroBiome Initiative samples	64.87	-111.58	GAZ:Canada	tundra biome	3.9
+632.Arctic.Tundra.2	Arctic Tundra 2	Canadian MetaMicroBiome Initiative samples	69.33	-138.74	GAZ:Canada	tundra biome	6.7
+632.Boreal.coniferous.forest	Boreal coniferous forest, Alberta	Canadian MetaMicroBiome Initiative samples	57.29	-111.27	GAZ:Canada	temperate mixed forest biome	4.6
+632.Northern.peatlands	Northern peatlands, Old Crow	Canadian MetaMicroBiome Initiative samples	67.54	-139.86	GAZ:Canada	tundra biome	5.5
+632.Tar.sand.1	Tar sand 1, Alberta	Canadian MetaMicroBiome Initiative samples	57.08	-111.54	GAZ:Canada	temperate mixed forest biome	7.6
+632.Tar.sand.2	Tar sand 2, Alberta	Canadian MetaMicroBiome Initiative samples	57.31	-111.68	GAZ:Canada	temperate mixed forest biome	6.0
+632.Temperate.deciduous.forest	Temperate deciduous forest, Ontario	Canadian MetaMicroBiome Initiative samples	43.49	-80.57	GAZ:Canada	temperate mixed forest biome	6.4
+632.Temperate.rain.forest	Temperate rain forest, British Columbia	Canadian MetaMicroBiome Initiative samples	48.61	-124.23	GAZ:Canada	temperate mixed forest biome	4.9
+632.Wetland.soil	Wetland soil, Mt. St. Hilaire	Canadian MetaMicroBiome Initiative samples	45.56	-73.13	GAZ:Canada	montane shrubland biome	5.0
+659.NZFACE.R1.Browntop	soil sample from Ring 1 of NZ FACE expt . In ring 1 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. No warming	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.05
+659.NZFACE.R1.control.19.4	soil sample from Ring 1 of NZ FACE expt . In ring 1 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	6.0
+659.NZFACE.R1.Ryegrass.26.4	soil sample from rhizosphere soil of ryegrass from Ring 1 of NZ FACE expt . In ring 1 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.62
+659.NZFACE.R2.Browntop	soil sample from Ring 2 of NZ FACE expt . In ring 2 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. No warming	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.25
+659.NZFACE.R2.control.23.4	soil sample from Ring 2 of NZ FACE expt . In ring 2 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.8
+659.NZFACE.R2.Ryegrass.24.4	soil sample from rhizosphere soil of ryegrass from Ring 2 of NZ FACE expt . In ring 2 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.68
+659.NZFACE.R3.Browntop	soil sample from rhizosphere soil of browntop grass from Ring 2 of NZ FACE expt . In ring 2 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.45
+659.NZFACE.R3.Ryegrass.19.7	soil sample from Ring 3 of NZ FACE expt . In ring 3 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. No warming	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.79
+659.NZFACE.R4.Browntop	soil sample from rhizosphere soil of ryegrass from Ring 3 of NZ FACE expt . In ring 3 pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.36
+659.NZFACE.R4.Ryegrass.16.4	soil sample from rhizosphere soil of browntop grass from Ring 3of NZ FACE expt . In ring 3pasture atmosphere is enriched with 475 ppm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.84
+659.NZFACE.R5.Browntop	soil sample from Ring 4 of NZ FACE expt . In ring 4 pasture atmosphere is enriched with ambient atm CO2 throughout photoperiod and throughout photoperiod since 1997. No warming	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.47
+659.NZFACE.R5.Ryegrass	soil sample from Ring 4 of NZ FACE expt . In ring 4 pasture atmosphere is enriched with ambient atm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.17
+659.NZFACE.R6.Browntop	soil sample from rhizosphere soil of ryegrass from Ring 4 of NZ FACE expt . In ring 4 pasture atmosphere is enriched with ambient CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.57
+659.NZFACE.R6.Ryegrass	soil sample from rhizosphere soil of browntop grass from Ring 4 of NZ FACE expt . In ring 4 pasture atmosphere is enriched with ambient CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.8
+659.NZFACE.R3.control.19.4	soil sample from Ring 5 of NZ FACE expt . In ring 5 pasture atmosphere is enriched with ambient atm CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.8
+659.NZFACE.R4.control.19.8	soil sample from rhizosphere soil of ryegrass from Ring 5 of NZ FACE expt . In ring 5 pasture atmosphere is enriched with ambient CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.9
+659.NZFACE.R6.control	soil sample from rhizosphere soil of ryegrass from Ring 6 of NZ FACE expt . In ring 6 pasture atmosphere is enriched with ambient CO2 throughout photoperiod and throughout photoperiod since 1997. area exposed to warming treatment since 2009	New Zealand Free Air CO2 Enrichment (FACE) soil samples	-40.016999999999996	175.267	GAZ:New Zealand	cropland biome	5.8
+722.CC1.1.s.1.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.1.s.1.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.1.s.1.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.3	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.2.s.2.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.2.s.2.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.2.s.2.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.4	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.3.s.3.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.3.s.3.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.3.s.3.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.5	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.4.s.4.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.4.s.4.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.4.s.4.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.6	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.5.s.6.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.5.s.6.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.5.s.6.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.7	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.6.s.7.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.6.s.7.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.6.s.7.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.8	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+722.CC1.7.s.8.1.sequence	Cedar Creek Minnesota, grassland, pH 6.1	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	46.745	-94.598	GAZ:United States of America	grassland biome	6.1
+722.CL3.7.s.8.1.sequence	Calhoun South Carolina Pine soil, pH 4.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	33.674	-80.766	GAZ:United States of America	coniferous forest biome	4.9
+722.SV1.7.s.8.1.sequence	Sevilleta New Mexico, desert scrub, pH 8.9	Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample (5PRIME)	31.712	-106.46600000000001	GAZ:United States of America	desert biome	8.3
+805.pH.4.5.year.2006	pH 4.5 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	4.5
+805.pH.4.5.year.2007	pH 4.5 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	4.5
+805.pH.5.0.year.2006	pH 5.0 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	5.0
+805.pH.5.0.year.2007	pH 5.0 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	5.0
+805.pH.5.5.year.2006	pH 5.5 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	5.5
+805.pH.5.5.year.2007	pH 5.5 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	5.5
+805.pH.6.0.year.2006	pH 6.0 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	6.0
+805.pH.6.0.year.2007	pH 6.0 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	6.0
+805.pH.6.5.year.2006	pH 6.5 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	6.5
+805.pH.6.5.year.2007	pH 6.5 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	6.5
+805.pH.7.0.year.2006	pH 7.0 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	7.0
+805.pH.7.0.year.2007	pH 7.0 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	7.0
+805.pH.7.5.year.2006	pH 7.5 year 2006	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	7.5
+805.pH.7.5.year.2007	pH 7.5 year 2007	Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm	57.183	-2.85	GAZ:Scotland	cropland biome	7.5
+808.AK.19.12a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	65.154	-147.501	GAZ:United States of America	forest biome	3.74
+808.AK.19.12a.s.4.1.sequences.r	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	65.154	-147.501	GAZ:United States of America	forest biome	3.74
+808.AK.19.15a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	65.154	-147.503	GAZ:United States of America	forest biome	3.45
+808.AK.19.18a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	65.154	-147.503	GAZ:United States of America	forest biome	3.87
+808.FL.3.13a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	29.69	-81.994	GAZ:United States of America	tropical coniferous forest biome	5.44
+808.FL.3.14a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	29.69	-81.994	GAZ:United States of America	tropical coniferous forest biome	4.99
+808.FL.3.16a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	29.69	-81.994	GAZ:United States of America	tropical coniferous forest biome	5.09
+808.HI.20.11a.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	19.930999999999997	-155.289	GAZ:United States of America	tropical broadleaf forest biome	4.76
+808.HI.20.11a.s.4.1.sequences.r	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	19.930999999999997	-155.289	GAZ:United States of America	tropical broadleaf forest biome	4.76
+808.UT.15.42.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	40.177	-112.455	GAZ:United States of America	temperate grassland biome	7.86
+808.UT.15.42.s.4.1.sequences.r	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	40.177	-112.455	GAZ:United States of America	temperate grassland biome	7.86
+808.UT.15.44.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	40.177	-112.45299999999999	GAZ:United States of America	temperate grassland biome	7.89
+808.UT.15.45.s.4.1.sequences	soil core	NEON: Directions and resources for long-term monitoring in soil microbial ecology	40.177	-112.45299999999999	GAZ:United States of America	temperate grassland biome	7.89
+829.JJ	[JJ], arid-soil	Microbial diversity in soil, sand dune and rock substrates of the Thar Monsoon Desert, India	26.895	70.688333	GAZ:India	desert biome	8.5
+829.Pd	[Pd], semiarid-soil	Microbial diversity in soil, sand dune and rock substrates of the Thar Monsoon Desert, India	27.013056	75.875783	GAZ:India	desert biome	6.4
+895.Puhimau.soil.1	geothermal field soil	Kilauea geothermal soils and biofilms	19.389	-155.249	GAZ:United States of America	tropical coniferous forest biome	6.36
+895.Puhimau.soil.2	geothermal field soil	Kilauea geothermal soils and biofilms	19.389	-155.251	GAZ:United States of America	tropical coniferous forest biome	6.13
+895.Puhimau.soil.3	geothermal field soil	Kilauea geothermal soils and biofilms	19.389	-155.251	GAZ:United States of America	tropical coniferous forest biome	6.78
+1001.SKB1	Burmese bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKB2	Burmese bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKB3	Burmese bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKB4	Burmese Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKB5	Burmese Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKB6	Burmese Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.94
+1001.SKD2	Diesel bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.8
+1001.SKD3	Diesel bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.8
+1001.SKD6	Diesel Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.8
+1001.SKM1	Bucu bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.82
+1001.SKM2	Bucu bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.82
+1001.SKM3	Bucu bulk	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.82
+1001.SKM4	Bucu Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.82
+1001.SKM5	Bucu Rhizo	Understanding cultivar-specificity and soil determinants of the Cannabis microbiome	33.194	-117.241	GAZ:United States of America	cropland biome	6.82
+1031.CHRA3	Cascade Head, red alder, blk 3	Myrold alder fir	45.04	-123.89	GAZ:United States of America	coniferous forest biome	3.6
+1031.HJDF2	HJ Andrews, Douglas-fir, blk 2	Myrold alder fir	44.23	-122.19	GAZ:United States of America	coniferous forest biome	5.0
+1031.HJDF3	HJ Andrews, Douglas-fir, blk 3	Myrold alder fir	44.23	-122.16	GAZ:United States of America	coniferous forest biome	5.0
+1031.CHDF1	Cascade Head, Douglas-fir, blk 1	Myrold alder fir	45.05	-123.9	GAZ:United States of America	coniferous forest biome	4.1
+1031.HJRA2	HJ Andrews, red alder, blk 2	Myrold alder fir	44.23	-122.19	GAZ:United States of America	coniferous forest biome	5.1
+1031.CHDF2	Cascade Head, Douglas-fir, blk 2	Myrold alder fir	45.04	-123.89	GAZ:United States of America	coniferous forest biome	4.1
+1031.HJRA3	HJ Andrews, red alder, blk 3	Myrold alder fir	44.23	-122.16	GAZ:United States of America	coniferous forest biome	5.1
+1031.CHDF3	Cascade Head, Douglas-fir, blk 3	Myrold alder fir	45.04	-123.89	GAZ:United States of America	coniferous forest biome	4.1
+1031.HJDF.1	HJ Andrews, Douglas-fir, blk 1	Myrold alder fir	44.23	-122.19	GAZ:United States of America	coniferous forest biome	5.0
+1031.CHRA2	Cascade Head, red alder, blk 2	Myrold alder fir	45.05	-123.89	GAZ:United States of America	coniferous forest biome	3.6
+1031.HJRA.1	HJ Andrews, red alder, blk 1	Myrold alder fir	44.23	-122.19	GAZ:United States of America	coniferous forest biome	5.1
+1034.CHA1	soil metagenome,Ajj (old, more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	6.33
+1034.CHA10	soil metagenome,Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	7.44
+1034.CHA11	soil metagenome,Bg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	5.59
+1034.CHA12	soil metagenome,AB	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	5.52
+1034.CHA2	soil metagenome,Ajj  (young, less decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	5.49
+1034.CHA3	soil metagenome,O	Distinct microbial communities associated with buried soils in the Siberian tundra	69.438	161.71	GAZ:Russia	tundra biome	5.21
+1034.CHB1	soil metagenome,Ajj (old, more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	6.6
+1034.CHB10	soil metagenome,OA	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	5.05
+1034.CHB2	soil metagenome,Bg2	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	6.42
+1034.CHB3	soil metagenome,Ajj (young, less decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	5.22
+1034.CHB4	soil metagenome,Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	6.62
+1034.CHB5	soil metagenome,Bg1	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	6.07
+1034.CHB6	soil metagenome,AB	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	5.82
+1034.CHB7	soil metagenome,O	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	5.28
+1034.CHB8	soil metagenome,Upper permafrost 0-30 cm (under frostboil)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	7.89
+1034.CHB9	soil metagenome,Deep permafrost 30-45 cm (under frostboil)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.435	161.714	GAZ:Russia	tundra biome	7.7
+1034.CHC1	soil metagenome,Ajj (more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.74
+1034.CHC10	soil metagenome,Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	7.88
+1034.CHC11	soil metagenome,Bg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.98
+1034.CHC12	soil metagenome,Bvg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.88
+1034.CHC13	soil metagenome,ABg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.79
+1034.CHC16	soil metagenome,O	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.03
+1034.CHC17	soil metagenome,A	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.43
+1034.CHC2	soil metagenome,Ajj (less decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	6.1
+1034.CHC3	soil metagenome,Ajj (more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	5.89
+1034.CHC9	soil metagenome,Deep permafrost 30-45 cm (under depression)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.434	161.716	GAZ:Russia	tundra biome	7.71
+1034.CHD1	soil metagenome,Ajj (more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.32
+1034.CHD10	soil metagenome,Oa	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.14
+1034.CHD11	soil metagenome,Upper permafrost 0-30 cm (under depression), 40 cm beyond surface	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.25
+1034.CHD2	soil metagenome,Ajj (less decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.13
+1034.CHD3	soil metagenome,Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.47
+1034.CHD4	soil metagenome,Bg2	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.5
+1034.CHD5	soil metagenome,Bg1	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.65
+1034.CHD8	soil metagenome,A	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.85
+1034.CHD9	soil metagenome,Oe	Distinct microbial communities associated with buried soils in the Siberian tundra	69.446	161.752	GAZ:Russia	tundra biome	5.23
+1034.CHF1	soil metagenome,Ajj (more decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.442	161.756	GAZ:Russia	tundra biome	5.39
+1034.CHF2	soil metagenome,Ajj (less decomposed)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.442	161.756	GAZ:Russia	tundra biome	5.42
+1034.CHF5	soil metagenome,Oa	Distinct microbial communities associated with buried soils in the Siberian tundra	69.442	161.756	GAZ:Russia	tundra biome	5.46
+1034.CHF10	soil metagenome, AB	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.58
+1034.CHF11	soil metagenome, Bg2	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.83
+1034.CHF12	soil metagenome, Bg1	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.87
+1034.CHF13	soil metagenome, Upper permafrost 0-30 cm (under frostboil)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	6.72
+1034.CHF14	soil metagenome, Deep permafrost 30-45 cm (under frostboil)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	6.78
+1034.CHF7	soil metagenome, Oe (under tussock)	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.34
+1034.CHF8	soil metagenome, OA	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.03
+1034.CHF9	soil metagenome, Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	69.44242	161.7559	GAZ:Russia	tundra biome	5.48
+1034.CHG1	soil metagenome, Ajj (partly in permafrost)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74776	161.59458	GAZ:Russia	tundra biome	6.47
+1034.CHG10	soil metagenome, Oa	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74776	161.59458	GAZ:Russia	tundra biome	5.12
+1034.CHG11	soil metagenome, Oe, Oi	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74776	161.59458	GAZ:Russia	tundra biome	5.08
+1034.CHG3	soil metagenome, Ajj (under frostboil)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74776	161.59458	GAZ:Russia	tundra biome	5.83
+1034.CHG9	soil metagenome, AB	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74776	161.59458	GAZ:Russia	tundra biome	5.9
+1034.CHI1	soil metagenome, Ajj (well decomposed, under frost boil)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	6.15
+1034.CHI10	soil metagenome, Oa	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	5.75
+1034.CHI11	soil metagenome, Ajj (well decomposed; weak appearance)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	5.51
+1034.CHI12	soil metagenome, O	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	4.33
+1034.CHI13	soil metagenome, OA	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	4.83
+1034.CHI2	soil metagenome, Ajj (well decomposed, under rim of frost boil)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	6.09
+1034.CHI3	soil metagenome, Ajj (directly onto of permafrost, under rim of frost boil)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	5.66
+1034.CHI4	soil metagenome, Ajj (in depression)	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	5.72
+1034.CHI6	soil metagenome, Permafrost surface under frost boil	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	6.48
+1034.CHI7	soil metagenome, AB	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	5.46
+1034.CHI9	soil metagenome, Cg	Distinct microbial communities associated with buried soils in the Siberian tundra	68.74792	161.60118	GAZ:Russia	tundra biome	6.62
+1036.P.N.7.2.s.4.1.sequences	soil metagenome P_N_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.7.1.s.4.1.sequences	soil metagenome P_N_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.21.2.s.4.1.sequences	soil metagenome P_N_21_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.21.1.s.4.1.sequences	soil metagenome P_N_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.2.2.s.4.1.sequences	soil metagenome P_N_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.2.1.s.4.1.sequences	soil metagenome P_N_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.14.2.s.4.1.sequences	soil metagenome P_N_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.N.14.1.s.4.1.sequences	soil metagenome P_N_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.7.2.s.4.1.sequences	soil metagenome P_C_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.7.1.s.4.1.sequences	soil metagenome P_C_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.21.2.s.4.1.sequences	soil metagenome P_C_21_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.21.1.s.4.1.sequences	soil metagenome P_C_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.2.2.s.4.1.sequences	soil metagenome P_C_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.2.1.s.4.1.sequences	soil metagenome P_C_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.14.2.s.4.1.sequences	soil metagenome P_C_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.14.1.s.4.1.sequences	soil metagenome P_C_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.0.2.s.4.1.sequences	soil metagenome P_C_0_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.C.0.1.s.4.1.sequences	soil metagenome P_C_0_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.7.2.s.4.1.sequences	soil metagenome P_Ac_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.7.1.s.4.1.sequences	soil metagenome P_Ac_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.21.2.s.4.1.sequences	soil metagenome P_Ac_21_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.21.1.s.4.1.sequences	soil metagenome P_Ac_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.2.2.s.4.1.sequences	soil metagenome P_Ac_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.2.1.s.4.1.sequences	soil metagenome P_Ac_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.14.2.s.4.1.sequences	soil metagenome P_Ac_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.P.Ac.14.1.s.4.1.sequences	soil metagenome P_Ac_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	6.2
+1036.B.N.7.2.s.4.1.sequences	soil metagenome B_N_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.7.1.s.4.1.sequences	soil metagenome B_N_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.21.2.s.4.1.sequences	soil metagenome B_N_21_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.21.1.s.4.1.sequences	soil metagenome B_N_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.2.2.s.4.1.sequences	soil metagenome B_N_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.2.1.s.4.1.sequences	soil metagenome B_N_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.14.2.s.4.1.sequences	soil metagenome B_N_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.N.14.1.s.4.1.sequences	soil metagenome B_N_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.7.2.s.4.1.sequences	soil metagenome B_C_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.7.1.s.4.1.sequences	soil metagenome B_C_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.21.1.s.4.1.sequences	soil metagenome B_C_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.2.2.s.4.1.sequences	soil metagenome B_C_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.2.1.s.4.1.sequences	soil metagenome B_C_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.14.2.s.4.1.sequences	soil metagenome B_C_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.14.1.s.4.1.sequences	soil metagenome B_C_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.0.2.s.4.1.sequences	soil metagenome B_C_0_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.C.0.1.s.4.1.sequences	soil metagenome B_C_0_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.7.2.s.4.1.sequences	soil metagenome B_Ac_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.7.1.s.4.1.sequences	soil metagenome B_Ac_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.21.1.s.4.1.sequences	soil metagenome B_Ac_21_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.2.2.s.4.1.sequences	soil metagenome B_Ac_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.2.1.s.4.1.sequences	soil metagenome B_Ac_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.14.2.s.4.1.sequences	soil metagenome B_Ac_14_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.B.Ac.14.1.s.4.1.sequences	soil metagenome B_Ac_14_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.16
+1036.A.V.2.2.s.4.1.sequences	soil metagenome A_V_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.V.2.1.s.4.1.sequences	soil metagenome A_V_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.N.7.2.s.4.1.sequences	soil metagenome A_N_7_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.N.7.1.s.4.1.sequences	soil metagenome A_N_7_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.N.2.2.s.4.1.sequences	soil metagenome A_N_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.N.2.1.s.4.1.sequences	soil metagenome A_N_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.2.2.s.4.1.sequences.r	soil metagenome A_C_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.2.2.s.4.1.sequences	soil metagenome A_C_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.2.1.s.4.1.sequences.r	soil metagenome A_C_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.2.1.s.4.1.sequences	soil metagenome A_C_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.0.2.s.4.1.sequences	soil metagenome A_C_0_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.C.0.1.s.4.1.sequences	soil metagenome A_C_0_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.Ac.2.2.s.4.1.sequences.r	soil metagenome A_Ac_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.Ac.2.2.s.4.1.sequences	soil metagenome A_Ac_2_2	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.Ac.2.1.s.4.1.sequences.r	soil metagenome A_Ac_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1036.A.Ac.2.1.s.4.1.sequences	soil metagenome A_Ac_2_1	Microbial communities of the deep unfrozen: Do microbes in taliks increase permafrost carbon vulnerability?	64.49	-157.75	GAZ:United States of America	tundra biome	5.56
+1038.MF1	Santiam Pass, mountain hemlock, rep 1	Myrold Oregon transect	44.63	-123.32	GAZ:United States of America	forest biome	4.8
+1038.DC3	McDonald Forest, Douglas-fir, rep 3	Myrold Oregon transect	44.39	-122.14	GAZ:United States of America	forest biome	5.0
+1038.MF2.1	Santiam Pass, mountain hemlock, rep 2	Myrold Oregon transect	44.63	-123.32	GAZ:United States of America	forest biome	4.8
+1038.SP1	Horse Ridge, western juniper, rep 1	Myrold Oregon transect	44.41	-121.8	GAZ:United States of America	forest biome	5.9
+1038.MF2.2	Santiam Pass, mountain hemlock, rep 3	Myrold Oregon transect	44.62	-123.32	GAZ:United States of America	forest biome	4.8
+1038.SP2	Horse Ridge, western juniper, rep 2	Myrold Oregon transect	44.42	-121.79	GAZ:United States of America	forest biome	5.9
+1038.SP3	Horse Ridge, western juniper, rep 3	Myrold Oregon transect	44.42	-121.85	GAZ:United States of America	forest biome	5.9
+1038.MR1	Metolius River, ponderosa pine, rep 1	Myrold Oregon transect	44.5	-121.63	GAZ:United States of America	forest biome	5.5
+1038.CH1	Cascade Head, old growth western hemlock, rep 1	Myrold Oregon transect	45.06	-123.94	GAZ:United States of America	forest biome	3.8
+1038.MR2	Metolius River, ponderosa pine, rep 2	Myrold Oregon transect	44.5	-121.63	GAZ:United States of America	forest biome	5.5
+1038.CH2	Cascade Head, old growth western hemlock, rep 2	Myrold Oregon transect	45.06	-123.94	GAZ:United States of America	forest biome	3.8
+1038.DC1	McDonald Forest, Douglas-fir, rep 1	Myrold Oregon transect	44.39	-122.14	GAZ:United States of America	forest biome	5.0
+1038.MR3	Metolius River, ponderosa pine, rep 3	Myrold Oregon transect	44.49	-121.63	GAZ:United States of America	forest biome	5.5
+1038.CH3	Cascade Head, old growth western hemlock, rep 3	Myrold Oregon transect	45.07	-123.94	GAZ:United States of America	forest biome	3.8
+1038.DC2	McDonald Forest, Douglas-fir, rep 2	Myrold Oregon transect	44.39	-122.14	GAZ:United States of America	forest biome	5.0
+1521.BF1.s.6.1.sequences	soil metagenome BF1	Samples presented at EMP conference June 2011 Shenzhen	41.58	-80.05	GAZ:United States of America	forest biome	4.05
+1521.BB2.s.6.1.sequences	soil metagenome BB2	Samples presented at EMP conference June 2011 Shenzhen	44.87	-68.1	GAZ:United States of America	forest biome	4.6
+1521.VC1.s.6.1.sequences	soil metagenome VC1	Samples presented at EMP conference June 2011 Shenzhen	35.9	-106.55	GAZ:United States of America	desert biome	5.55
+1521.TL3.s.6.1.sequences	soil metagenome TL3	Samples presented at EMP conference June 2011 Shenzhen	68.63	-149.58	GAZ:United States of America	tundra biome	4.23
+1521.TL1.s.6.1.sequences	soil metagenome TL1	Samples presented at EMP conference June 2011 Shenzhen	68.63	-149.58	GAZ:United States of America	tundra biome	4.58
+1521.SV2.s.6.1.sequences	soil metagenome SV2	Samples presented at EMP conference June 2011 Shenzhen	34.33	-106.73	GAZ:United States of America	desert biome	8.44
+1521.SV1.M.s.6.1.sequences	soil metagenome SV1.M	Samples presented at EMP conference June 2011 Shenzhen	34.33	-106.73	GAZ:United States of America	desert biome	8.31
+1521.SV1.s.6.1.sequences	soil metagenome SV1	Samples presented at EMP conference June 2011 Shenzhen	34.33	-106.73	GAZ:United States of America	desert biome	8.31
+1521.SR3.s.6.1.sequences	soil metagenome SR3	Samples presented at EMP conference June 2011 Shenzhen	34.68	-120.05	GAZ:United States of America	forest biome	6.95
+1521.SR2.s.6.1.sequences	soil metagenome SR2	Samples presented at EMP conference June 2011 Shenzhen	34.68	-120.03	GAZ:United States of America	forest biome	8.0
+1521.SR1.s.6.1.sequences	soil metagenome SR1	Samples presented at EMP conference June 2011 Shenzhen	34.7	-120.05	GAZ:United States of America	forest biome	6.84
+1521.SP2.s.6.1.sequences	soil metagenome SP2	Samples presented at EMP conference June 2011 Shenzhen	36.62	-118.63	GAZ:United States of America	forest biome	5.13
+1521.SP1.s.6.1.sequences	soil metagenome SP1	Samples presented at EMP conference June 2011 Shenzhen	36.5	-118.7	GAZ:United States of America	forest biome	6.25
+1521.SN3.s.6.1.sequences	soil metagenome SN3	Samples presented at EMP conference June 2011 Shenzhen	36.45	-118.17	GAZ:United States of America	grassland biome	5.74
+1521.SK2.s.6.1.sequences	soil metagenome SK2	Samples presented at EMP conference June 2011 Shenzhen	53.98	-105.2	GAZ:Canada	forest biome	6.18
+1521.SK1.s.6.1.sequences	soil metagenome SK1	Samples presented at EMP conference June 2011 Shenzhen	53.9	-104.7	GAZ:Canada	forest biome	5.45
+1521.SF2.M.s.6.1.sequences	soil metagenome SF2.M	Samples presented at EMP conference June 2011 Shenzhen	35.38	-105.93	GAZ:United States of America	desert biome	8.38
+1521.SF2.s.6.1.sequences	soil metagenome SF2	Samples presented at EMP conference June 2011 Shenzhen	35.38	-105.93	GAZ:United States of America	desert biome	8.38
+1521.SF1.s.6.1.sequences	soil metagenome SF1	Samples presented at EMP conference June 2011 Shenzhen	35.38	-105.93	GAZ:United States of America	desert biome	7.71
+1521.SA1.s.6.1.sequences	soil metagenome SA1	Samples presented at EMP conference June 2011 Shenzhen	35.37	-111.55	GAZ:United States of America	desert biome	6.9
+1521.RT2.s.6.1.sequences	soil metagenome RT2	Samples presented at EMP conference June 2011 Shenzhen	31.47	-96.87	GAZ:United States of America	grassland biome	8.07
+1521.PE7.s.6.1.sequences	soil metagenome PE7	Samples presented at EMP conference June 2011 Shenzhen	-12.65	-71.23	GAZ:Peru	forest biome	5.51
+1521.PE6.M.s.6.1.sequences	soil metagenome PE6.M	Samples presented at EMP conference June 2011 Shenzhen	-12.65	-71.23	GAZ:Peru	forest biome	4.12
+1521.PE6.s.6.1.sequences	soil metagenome PE6	Samples presented at EMP conference June 2011 Shenzhen	-12.65	-71.23	GAZ:Peru	forest biome	4.12
+1521.PE5.s.6.1.sequences	soil metagenome PE5	Samples presented at EMP conference June 2011 Shenzhen	-12.63	-71.27	GAZ:Peru	forest biome	3.57
+1521.NTP9.s.6.1.sequences	soil metagenome NTP9	Samples presented at EMP conference June 2011 Shenzhen	40.16	-96.53	GAZ:United States of America	grassland biome	5.93
+1521.NTP8.s.6.1.sequences	soil metagenome NTP8	Samples presented at EMP conference June 2011 Shenzhen	40.26	-96.18	GAZ:United States of America	grassland biome	4.32
+1521.NTP4.s.6.1.sequences	soil metagenome NTP4	Samples presented at EMP conference June 2011 Shenzhen	36.62	-95.27	GAZ:United States of America	grassland biome	7.55
+1521.NTP39.s.6.1.sequences	soil metagenome NTP39	Samples presented at EMP conference June 2011 Shenzhen	48.98	-96.49	GAZ:United States of America	grassland biome	5.815
+1521.NTP38.s.6.1.sequences	soil metagenome NTP38	Samples presented at EMP conference June 2011 Shenzhen	47.73	-96.82	GAZ:United States of America	grassland biome	6.48
+1521.NTP36.s.6.1.sequences	soil metagenome NTP36	Samples presented at EMP conference June 2011 Shenzhen	47.05	-96.43	GAZ:United States of America	grassland biome	6.71
+1521.NTP34.s.6.1.sequences	soil metagenome NTP34	Samples presented at EMP conference June 2011 Shenzhen	46.52	-96.43	GAZ:United States of America	grassland biome	6.14
+1521.NTP33.s.6.1.sequences	soil metagenome NTP33	Samples presented at EMP conference June 2011 Shenzhen	46.4	-97.36	GAZ:United States of America	grassland biome	6.97
+1521.NTP29.s.6.1.sequences	soil metagenome NTP29	Samples presented at EMP conference June 2011 Shenzhen	44.8	-96.57	GAZ:United States of America	grassland biome	6.79
+1521.NTP28.s.6.1.sequences	soil metagenome NTP28	Samples presented at EMP conference June 2011 Shenzhen	44.27	-95.7	GAZ:United States of America	grassland biome	7.05
+1521.NTP27.s.6.1.sequences	soil metagenome NTP27	Samples presented at EMP conference June 2011 Shenzhen	44.26	-96.71	GAZ:United States of America	grassland biome	6.83
+1521.NTP26.s.6.1.sequences	soil metagenome NTP26	Samples presented at EMP conference June 2011 Shenzhen	44.12	-96.15	GAZ:United States of America	grassland biome	7.46
+1521.NTP25.s.6.1.sequences	soil metagenome NTP25	Samples presented at EMP conference June 2011 Shenzhen	44.04	-96.78	GAZ:United States of America	grassland biome	6.52
+1521.NTP24.s.6.1.sequences	soil metagenome NTP24	Samples presented at EMP conference June 2011 Shenzhen	43.87	-92.85	GAZ:United States of America	grassland biome	7.11
+1521.NTP2.s.6.1.sequences	soil metagenome NTP2	Samples presented at EMP conference June 2011 Shenzhen	33.31	-96.23	GAZ:United States of America	grassland biome	6.85
+1521.NTP18.s.6.1.sequences	soil metagenome NTP18	Samples presented at EMP conference June 2011 Shenzhen	42.88	-95.58	GAZ:United States of America	grassland biome	6.22
+1521.NTP13.s.6.1.sequences	soil metagenome NTP13	Samples presented at EMP conference June 2011 Shenzhen	41.61	-97.11	GAZ:United States of America	grassland biome	7.18
+1521.NTP12.s.6.1.sequences	soil metagenome NTP12	Samples presented at EMP conference June 2011 Shenzhen	41.71	-95.28	GAZ:United States of America	grassland biome	7.08
+1521.NTP11.s.6.1.sequences	soil metagenome NTP11	Samples presented at EMP conference June 2011 Shenzhen	40.87	-96.81	GAZ:United States of America	grassland biome	7.86
+1521.MT2.s.6.1.sequences	soil metagenome MT2	Samples presented at EMP conference June 2011 Shenzhen	46.8	-114.0	GAZ:United States of America	forest biome	6.66
+1521.MT1.s.6.1.sequences	soil metagenome MT1	Samples presented at EMP conference June 2011 Shenzhen	46.8	-114.0	GAZ:United States of America	forest biome	7.57
+1521.MP1.s.6.1.sequences	soil metagenome MP1	Samples presented at EMP conference June 2011 Shenzhen	49.47	-123.53	GAZ:United States of America	forest biome	4.56
+1521.MD5.s.6.1.sequences	soil metagenome MD5	Samples presented at EMP conference June 2011 Shenzhen	35.2	-115.87	GAZ:United States of America	desert biome	8.07
+1521.MD4.s.6.1.sequences	soil metagenome MD4	Samples presented at EMP conference June 2011 Shenzhen	35.2	-115.87	GAZ:United States of America	desert biome	8.86
+1521.MD3.M.s.6.1.sequences	soil metagenome MD3.M	Samples presented at EMP conference June 2011 Shenzhen	34.9	-115.65	GAZ:United States of America	desert biome	7.9
+1521.MD3.s.6.1.sequences	soil metagenome MD3	Samples presented at EMP conference June 2011 Shenzhen	34.9	-115.65	GAZ:United States of America	desert biome	7.9
+1521.MD2.s.6.1.sequences	soil metagenome MD2	Samples presented at EMP conference June 2011 Shenzhen	34.9	-115.6	GAZ:United States of America	desert biome	7.65
+1521.LQ3.s.6.1.sequences	soil metagenome LQ3	Samples presented at EMP conference June 2011 Shenzhen	18.3	-65.83	GAZ:United States of America	forest biome	4.67
+1521.LQ2.s.6.1.sequences	soil metagenome LQ2	Samples presented at EMP conference June 2011 Shenzhen	18.3	-65.83	GAZ:United States of America	forest biome	5.03
+1521.KP4.s.6.1.sequences	soil metagenome KP4	Samples presented at EMP conference June 2011 Shenzhen	39.1	-96.6	GAZ:United States of America	grassland biome	7.1
+1521.KP1.s.6.1.sequences	soil metagenome KP1	Samples presented at EMP conference June 2011 Shenzhen	39.1	-96.6	GAZ:United States of America	grassland biome	6.37
+1521.IT1.s.6.1.sequences	soil metagenome IT1	Samples presented at EMP conference June 2011 Shenzhen	47.17	-95.17	GAZ:United States of America	forest biome	5.78
+1521.IE2.s.6.1.sequences	soil metagenome IE2	Samples presented at EMP conference June 2011 Shenzhen	41.8	-73.75	GAZ:United States of America	forest biome	5.52
+1521.IE1.s.6.1.sequences	soil metagenome IE1	Samples presented at EMP conference June 2011 Shenzhen	41.8	-73.75	GAZ:United States of America	forest biome	5.27
+1521.HJ2.s.6.1.sequences	soil metagenome HJ2	Samples presented at EMP conference June 2011 Shenzhen	44.22	-122.15	GAZ:United States of America	forest biome	5.36
+1521.HJ1.s.6.1.sequences	soil metagenome HJ1	Samples presented at EMP conference June 2011 Shenzhen	44.22	-122.15	GAZ:United States of America	forest biome	5.41
+1521.HI4.s.6.1.sequences	soil metagenome HI4	Samples presented at EMP conference June 2011 Shenzhen	20.08	-155.7	GAZ:United States of America	tropical grassland biome	4.92
+1521.HI2.s.6.1.sequences	soil metagenome HI2	Samples presented at EMP conference June 2011 Shenzhen	20.08	-155.7	GAZ:United States of America	tropical grassland biome	6.32
+1521.HI1.s.6.1.sequences	soil metagenome HI1	Samples presented at EMP conference June 2011 Shenzhen	20.08	-155.7	GAZ:United States of America	tropical grassland biome	6.45
+1521.GB5.s.6.1.sequences	soil metagenome GB5	Samples presented at EMP conference June 2011 Shenzhen	39.35	-111.58	GAZ:United States of America	grassland biome	8.22
+1521.GB3.s.6.1.sequences	soil metagenome GB3	Samples presented at EMP conference June 2011 Shenzhen	39.32	-111.48	GAZ:United States of America	grassland biome	7.18
+1521.GB1.s.6.1.sequences	soil metagenome GB1	Samples presented at EMP conference June 2011 Shenzhen	39.33	-111.45	GAZ:United States of America	grassland biome	6.84
+1521.EB026.s.6.1.sequences	soil metagenome EB026	Samples presented at EMP conference June 2011 Shenzhen	-77.73	161.31	GAZ:Antarctica	tundra biome	8.73
+1521.EB024.s.6.1.sequences	soil metagenome EB024	Samples presented at EMP conference June 2011 Shenzhen	-77.53	161.7	GAZ:Antarctica	tundra biome	7.3
+1521.EB023.s.6.1.sequences	soil metagenome EB023	Samples presented at EMP conference June 2011 Shenzhen	-77.63	162.88	GAZ:Antarctica	tundra biome	5.03
+1521.EB022.s.6.1.sequences	soil metagenome EB022	Samples presented at EMP conference June 2011 Shenzhen	-77.65	162.89	GAZ:Antarctica	tundra biome	9.93
+1521.EB021.M.s.6.1.sequences	soil metagenome EB021.M	Samples presented at EMP conference June 2011 Shenzhen	-77.52	162.89	GAZ:Antarctica	tundra biome	9.17
+1521.EB021.s.6.1.sequences	soil metagenome EB021	Samples presented at EMP conference June 2011 Shenzhen	-77.52	162.89	GAZ:Antarctica	tundra biome	9.17
+1521.EB020.M.s.6.1.sequences	soil metagenome EB020.M	Samples presented at EMP conference June 2011 Shenzhen	-77.61	162.25	GAZ:Antarctica	tundra biome	9.95
+1521.EB020.s.6.1.sequences	soil metagenome EB020	Samples presented at EMP conference June 2011 Shenzhen	-77.61	162.25	GAZ:Antarctica	tundra biome	9.95
+1521.EB019.M.s.6.1.sequences	soil metagenome EB019.M	Samples presented at EMP conference June 2011 Shenzhen	-77.72	162.31	GAZ:Antarctica	tundra biome	9.26
+1521.EB017.M.s.6.1.sequences	soil metagenome EB017.M	Samples presented at EMP conference June 2011 Shenzhen	-78.02	163.88	GAZ:Antarctica	tundra biome	6.26
+1521.DF3.s.6.1.sequences	soil metagenome DF3	Samples presented at EMP conference June 2011 Shenzhen	35.97	-79.08	GAZ:United States of America	forest biome	5.05
+1521.DF1.M.s.6.1.sequences	soil metagenome DF1.M	Samples presented at EMP conference June 2011 Shenzhen	35.97	-79.08	GAZ:United States of America	forest biome	5.37
+1521.DF1.s.6.1.sequences	soil metagenome DF1	Samples presented at EMP conference June 2011 Shenzhen	35.97	-79.08	GAZ:United States of America	forest biome	5.37
+1521.CR1.s.6.1.sequences	soil metagenome CR1	Samples presented at EMP conference June 2011 Shenzhen	33.93	-97.23	GAZ:United States of America	grassland biome	8.0
+1521.CO3.s.6.1.sequences	soil metagenome CO3	Samples presented at EMP conference June 2011 Shenzhen	40.8	-104.83	GAZ:United States of America	grassland biome	6.02
+1521.CO2.s.6.1.sequences	soil metagenome CO2	Samples presented at EMP conference June 2011 Shenzhen	40.58	-105.33	GAZ:United States of America	grassland biome	5.68
+1521.CO1.s.6.1.sequences	soil metagenome CO1	Samples presented at EMP conference June 2011 Shenzhen	40.4	-105.7	GAZ:United States of America	grassland biome	6.13
+1521.CM1.s.6.1.sequences	soil metagenome CM1	Samples presented at EMP conference June 2011 Shenzhen	33.3	-96.23	GAZ:United States of America	grassland biome	7.85
+1521.CL4.s.6.1.sequences	soil metagenome CL4	Samples presented at EMP conference June 2011 Shenzhen	34.62	-81.67	GAZ:United States of America	forest biome	5.03
+1521.CL2.s.6.1.sequences	soil metagenome CL2	Samples presented at EMP conference June 2011 Shenzhen	34.62	-81.67	GAZ:United States of America	forest biome	5.57
+1521.CL1.M.s.6.1.sequences	soil metagenome CL1.M	Samples presented at EMP conference June 2011 Shenzhen	34.62	-81.67	GAZ:United States of America	forest biome	5.68
+1521.CL1.s.6.1.sequences	soil metagenome CL1	Samples presented at EMP conference June 2011 Shenzhen	34.62	-81.67	GAZ:United States of America	forest biome	5.68
+1521.CF3.s.6.1.sequences	soil metagenome CF3	Samples presented at EMP conference June 2011 Shenzhen	42.12	-74.1	GAZ:United States of America	forest biome	3.56
+1521.CA2.s.6.1.sequences	soil metagenome CA2	Samples presented at EMP conference June 2011 Shenzhen	36.05	-111.77	GAZ:United States of America	desert biome	8.02
+1521.CA1.s.6.1.sequences	soil metagenome CA1	Samples presented at EMP conference June 2011 Shenzhen	36.05	-111.77	GAZ:United States of America	desert biome	7.27
+1521.BZ1.s.6.1.sequences	soil metagenome BZ1	Samples presented at EMP conference June 2011 Shenzhen	64.8	-148.25	GAZ:United States of America	temperate mixed forest biome	5.12
+1521.BP1.s.6.1.sequences	soil metagenome BP1	Samples presented at EMP conference June 2011 Shenzhen	43.75	-102.38	GAZ:United States of America	desert biome	7.53
+1521.AR3.M.s.6.1.sequences	soil metagenome AR3.M	Samples presented at EMP conference June 2011 Shenzhen	-27.73	-55.68	GAZ:Argentina	grassland biome	5.9
+1521.AR3.s.6.1.sequences	soil metagenome AR3	Samples presented at EMP conference June 2011 Shenzhen	-27.73	-55.68	GAZ:Argentina	grassland biome	5.9
+1521.AR2.s.6.1.sequences	soil metagenome AR2	Samples presented at EMP conference June 2011 Shenzhen	-27.73	-55.68	GAZ:Argentina	grassland biome	6.0
+1521.AR1.s.6.1.sequences	soil metagenome AR1	Samples presented at EMP conference June 2011 Shenzhen	-27.73	-55.68	GAZ:Argentina	grassland biome	5.8
+1579.C.1.0	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.9
+1579.G.1.0	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.48
+1579.G.1.15	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.58
+1579.G.1.30	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.55
+1579.G.2.0	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.02
+1579.C.3.0	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.77
+1579.G.2.15	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.37
+1579.G.3.0	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	5.9
+1579.F.1.0	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	6.29
+1579.G.3.15	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.58
+1579.G.3.30	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.79
+1579.G.4.0	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.29
+1579.G.4.15	soil elevation 922m	Hawaii Kohala volcanic soils	20.105	-155.787	GAZ:United States of America	tropical shrubland biome	6.45
+1579.H.1.0	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.19
+1579.H.1.15	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.61
+1579.H.2.0	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.43
+1579.F.2.0	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	6.66
+1579.H.2.15	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	7.02
+1579.H.2.30	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	7.01
+1579.H.3.0	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.53
+1579.H.3.15	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.76
+1579.H.3.30	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.79
+1579.H.4.0	soil elevation 992m	Hawaii Kohala volcanic soils	20.108	-155.783	GAZ:United States of America	tropical shrubland biome	6.42
+1579.F.3.30	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	6.07
+1579.I.1.0	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.46
+1579.I.1.15	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.67
+1579.C.3.15	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.06
+1579.I.1.30	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.77
+1579.I.2.0	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.4
+1579.I.3.0	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.49
+1579.I.4.0	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.54
+1579.F.4.0	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	6.75
+1579.I.2.15	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.73
+1579.I.3.15	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.78
+1579.I.4.15	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.78
+1579.I.2.30	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.86
+1579.I.3.30	soil elevation 1090m	Hawaii Kohala volcanic soils	20.109	-155.776	GAZ:United States of America	tropical shrubland biome	6.8
+1579.J.1.0	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.19
+1579.E.1.0	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	6.9
+1579.E.1.15	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	7.2
+1579.E.1.30	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	7.37
+1579.E.2.0	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	6.79
+1579.E.2.15	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	7.09
+1579.E.2.30	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	7.0
+1579.E.3.0	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	6.73
+1579.E.4.0	soil elevation 674m	Hawaii Kohala volcanic soils	20.098	-155.805	GAZ:United States of America	tropical shrubland biome	7.02
+1579.F.4.15	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	6.94
+1579.F.4.30	soil elevation 833m	Hawaii Kohala volcanic soils	20.099	-155.793	GAZ:United States of America	tropical shrubland biome	7.23
+1579.J.1.15	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.51
+1579.J.1.30	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.68
+1579.J.2.0	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.15
+1579.J.2.15	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.53
+1579.J.2.30	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.39
+1579.J.3.0	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.07
+1579.J.3.15	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.55
+1579.C.3.30	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.86
+1579.J.3.30	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.7
+1579.J.4.0	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	5.96
+1579.J.4.15	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.41
+1579.J.4.30	soil elevation 1134m	Hawaii Kohala volcanic soils	20.108	-155.77	GAZ:United States of America	tropical shrubland biome	6.53
+1579.WM.1.0	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.11
+1579.WM.1.30	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.79
+1579.WM.2.15	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.62
+1579.WM.2.30	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.57
+1579.WM.3.15	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.28
+1579.WM.3.30	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.44
+1579.WM.4.0	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.28
+1579.WM.4.30	soil elevation 1104m	Hawaii Kohala volcanic soils	20.122	-155.774	GAZ:United States of America	tropical shrubland biome	5.73
+1579.MW.2.0	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.56
+1579.MW.1.15	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	6.21
+1579.MW.2.15	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.88
+1579.MW.3.15	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.48
+1579.C.4.0	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.97
+1579.MW.4.15	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.93
+1579.MW.1.30	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	6.08
+1579.MW.2.30	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.89
+1579.MW.3.30	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.16
+1579.MW.4.30	soil elevation 1118m	Hawaii Kohala volcanic soils	20.123	-155.77200000000002	GAZ:United States of America	tropical shrubland biome	5.6
+1579.C.4.15	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.38
+1579.C.4.30	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.73
+1579.D.1.0	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.92
+1579.D.1.15	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	7.24
+1579.D.1.30	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.43
+1579.D.2.0	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.71
+1579.D.2.15	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.29
+1579.D.2.30	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.19
+1579.D.3.0	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	6.38
+1579.D.4.0	soil elevation 356m	Hawaii Kohala volcanic soils	20.086	-155.829	GAZ:United States of America	tropical shrubland biome	7.33
+1579.C.2.0	soil elevation 256m	Hawaii Kohala volcanic soils	20.092	-155.845	GAZ:United States of America	tropical shrubland biome	6.6
+1692.Soil.BE.PolygonB.Shallow.Rim.7.15.2012	Soil BE PolygonB Shallow Rim 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.01
+1692.Soil.BE.PolygonC.Medium.Center.7.15.2012	Soil BE PolygonC Medium Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.54
+1692.Soil.BE.PolygonA.Shallow.Rim.7.15.2012	Soil BE PolygonA Shallow Rim 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.68
+1692.Soil.BE.PolygonC.Shallow.Center.7.15.2012	Soil BE PolygonC Shallow Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.54
+1692.Soil.BE.PolygonA.Medium.Center.7.15.2012	Soil BE PolygonA Medium Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.86
+1692.Soil.BE.PolygonA.Shallow.Center.7.15.2012	Soil BE PolygonA Shallow Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.86
+1692.Soil.BE.PolygonB.Medium.Rim.7.15.2012	Soil BE PolygonB Medium Rim 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.01
+1692.Soil.BE.PolygonB.Shallow.Center.7.15.2012	Soil BE PolygonB Shallow Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.67
+1692.Soil.BE.PolygonB.Medium.Center.7.15.2012	Soil BE PolygonB Medium Center 7.15.2012soil metagenome	Friedman Alaska peat soils	71.296	-156.766	GAZ:United States of America	tundra biome	4.67
+1702.AT1	soil from  2200m	Chu Changbai mountain soil	42.783	128.2	GAZ:China	montane shrubland biome	5.08
+1702.AT2	soil from  2200m	Chu Changbai mountain soil	42.783	128.2	GAZ:China	montane shrubland biome	5.34
+1702.AT3	soil from  2200m	Chu Changbai mountain soil	42.783	128.2	GAZ:China	montane shrubland biome	5.21
+1702.AT4	soil from  2200m	Chu Changbai mountain soil	42.783	128.2	GAZ:China	montane shrubland biome	5.06
+1702.BL1	soil from  530m	Chu Changbai mountain soil	42.4	128.1	GAZ:China	montane shrubland biome	5.5
+1702.BL2	soil from  530m	Chu Changbai mountain soil	42.4	128.1	GAZ:China	montane shrubland biome	5.75
+1702.BL3	soil from  530m	Chu Changbai mountain soil	42.4	128.1	GAZ:China	montane shrubland biome	5.85
+1702.BL4	soil from  530m	Chu Changbai mountain soil	42.4	128.1	GAZ:China	montane shrubland biome	5.43
+1702.DCF1	soil from  1250m	Chu Changbai mountain soil	42.15	128.13	GAZ:China	montane shrubland biome	4.79
+1702.DCF2	soil from  1250m	Chu Changbai mountain soil	42.15	128.13	GAZ:China	montane shrubland biome	4.85
+1702.DCF3	soil from  1250m	Chu Changbai mountain soil	42.15	128.13	GAZ:China	montane shrubland biome	5.14
+1702.DCF4	soil from  1250m	Chu Changbai mountain soil	42.15	128.13	GAZ:China	montane shrubland biome	5.01
+1702.DCS1	soil from  1680m	Chu Changbai mountain soil	42.083	128.067	GAZ:China	montane shrubland biome	5.57
+1702.DCS2	soil from  1680m	Chu Changbai mountain soil	42.083	128.067	GAZ:China	montane shrubland biome	4.92
+1702.DCS3	soil from  1680m	Chu Changbai mountain soil	42.083	128.067	GAZ:China	montane shrubland biome	4.59
+1702.DCS4	soil from  1680m	Chu Changbai mountain soil	42.083	128.067	GAZ:China	montane shrubland biome	4.44
+1702.EB2	soil from  1950m	Chu Changbai mountain soil	42.05	128.067	GAZ:China	montane shrubland biome	4.4
+1702.EB3	soil from  1950m	Chu Changbai mountain soil	42.05	128.067	GAZ:China	montane shrubland biome	3.89
+1702.MCB1	soil from  760m	Chu Changbai mountain soil	42.03	128.067	GAZ:China	montane shrubland biome	5.53
+1702.MCB2	soil from  760m	Chu Changbai mountain soil	42.03	128.067	GAZ:China	montane shrubland biome	5.45
+1702.MCB3	soil from  760m	Chu Changbai mountain soil	42.03	128.067	GAZ:China	montane shrubland biome	6.31
+1702.MCB4	soil from  760m	Chu Changbai mountain soil	42.03	128.067	GAZ:China	montane shrubland biome	6.01
+1716.McG.PAPrS02	PAPrS02	Panama soil precipitation gradient	9.144279065	-79.86235733	GAZ:Panama	tropical moist broadleaf forest biome	6.4
+1716.McG.PAPrS03	PAPrS03	Panama soil precipitation gradient	9.144279065	-79.86235733	GAZ:Panama	tropical moist broadleaf forest biome	5.6
+1716.McG.PAPrS05	PAPrS05	Panama soil precipitation gradient	9.080094077	-79.60782586	GAZ:Panama	tropical moist broadleaf forest biome	6.9
+1716.McG.PAPrS06	PAPrS06	Panama soil precipitation gradient	8.908218366	-79.59029284	GAZ:Panama	tropical moist broadleaf forest biome	6.3
+1716.McG.PAPrS07	PAPrS07	Panama soil precipitation gradient	9.11663238	-79.70776783	GAZ:Panama	tropical moist broadleaf forest biome	4.4
+1716.McG.PAPrS08	PAPrS08	Panama soil precipitation gradient	9.19665471	-79.37076559	GAZ:Panama	tropical moist broadleaf forest biome	5.8
+1716.McG.PAPrS09	PAPrS09	Panama soil precipitation gradient	9.205734408	-79.37982378	GAZ:Panama	tropical moist broadleaf forest biome	5.7
+1716.McG.PAPrS10	PAPrS10	Panama soil precipitation gradient	9.080329918	-79.67150005	GAZ:Panama	tropical moist broadleaf forest biome	5.4
+1716.McG.PAPrS11	PAPrS11	Panama soil precipitation gradient	9.099057886	-79.86249892	GAZ:Panama	tropical moist broadleaf forest biome	5.6
+1716.McG.PAPrS12	PAPrS12	Panama soil precipitation gradient	9.099062226000001	-79.86249854	GAZ:Panama	tropical moist broadleaf forest biome	5.6
+1716.McG.PAPrS13	PAPrS13	Panama soil precipitation gradient	9.117291084	-79.90794328	GAZ:Panama	tropical moist broadleaf forest biome	5.4
+1716.McG.PAPrS14	PAPrS14	Panama soil precipitation gradient	9.117236617	-79.88974343	GAZ:Panama	tropical moist broadleaf forest biome	6.6
+1716.McG.PAPrS15	PAPrS15	Panama soil precipitation gradient	8.999614999999999	-79.56285	GAZ:Panama	tropical moist broadleaf forest biome	6.6
+1716.McG.PAPrS16	PAPrS16	Panama soil precipitation gradient	8.989456833	-79.55359645	GAZ:Panama	tropical moist broadleaf forest biome	7.0
+1716.McG.PAPrS17	PAPrS17	Panama soil precipitation gradient	9.325450768	-79.96192725	GAZ:Panama	tropical moist broadleaf forest biome	6.2
+1716.McG.PAPrS18	PAPrS18	Panama soil precipitation gradient	9.316433187000001	-79.97105738	GAZ:Panama	tropical moist broadleaf forest biome	4.6
+1716.McG.PAPrS19	PAPrS19	Panama soil precipitation gradient	9.253103294	-79.96214191	GAZ:Panama	tropical moist broadleaf forest biome	6.4
+1716.McG.PAPrS20	PAPrS20	Panama soil precipitation gradient	9.253074555	-79.95304496	GAZ:Panama	tropical moist broadleaf forest biome	5.8
+1716.McG.PAPrS21	PAPrS21	Panama soil precipitation gradient	9.15296177	-79.75313523	GAZ:Panama	tropical moist broadleaf forest biome	6.1
+1716.McG.PAPrS22	PAPrS22	Panama soil precipitation gradient	9.152961446	-79.75312772	GAZ:Panama	tropical moist broadleaf forest biome	4.4
+1716.McG.PAPrS23	PAPrS23	Panama soil precipitation gradient	9.152934489	-79.74403565	GAZ:Panama	tropical moist broadleaf forest biome	4.5
+1716.McG.PAPrS24	PAPrS24	Panama soil precipitation gradient	9.16200706	-79.75309848	GAZ:Panama	tropical moist broadleaf forest biome	5.3
+1716.McG.PAPrS25	PAPrS25	Panama soil precipitation gradient	9.161976114	-79.74400189	GAZ:Panama	tropical moist broadleaf forest biome	6.3
+1716.McG.PAPrS26	PAPrS26	Panama soil precipitation gradient	9.144274282000001	-79.86236055	GAZ:Panama	tropical moist broadleaf forest biome	6.1
+1716.McG.PAPrS27	PAPrS27	Panama soil precipitation gradient	9.144331142999999	-79.88056132	GAZ:Panama	tropical moist broadleaf forest biome	5.4
+1716.McG.PAPrS28	PAPrS28	Panama soil precipitation gradient	9.17132473	-79.83497105	GAZ:Panama	tropical moist broadleaf forest biome	6.4
+1716.McG.PAPrS29	PAPrS29	Panama soil precipitation gradient	9.1803379	-79.82584140000002	GAZ:Panama	tropical moist broadleaf forest biome	6.0
+1716.McG.PAPrS30	PAPrS30	Panama soil precipitation gradient	9.153322089	-79.86233432	GAZ:Panama	tropical moist broadleaf forest biome	5.4
+1716.McG.PAPrS31	PAPrS31	Panama soil precipitation gradient	9.152966702999999	-79.75312882	GAZ:Panama	tropical moist broadleaf forest biome	6.0
+1716.McG.PAPrS32	PAPrS32	Panama soil precipitation gradient	9.143791061	-79.71676628	GAZ:Panama	tropical moist broadleaf forest biome	6.3
+1716.McG.PAPrS33	PAPrS33	Panama soil precipitation gradient	9.143796136	-79.7167695	GAZ:Panama	tropical moist broadleaf forest biome	6.1
+1716.McG.PAPrS34	PAPrS34	Panama soil precipitation gradient	9.135323364	-79.88968474	GAZ:Panama	tropical moist broadleaf forest biome	5.0
+1716.McG.PAPrS35	PAPrS35	Panama soil precipitation gradient	9.198266411	-79.78027526	GAZ:Panama	tropical moist broadleaf forest biome	5.0
+1716.McG.PAPrS36	PAPrS36	Panama soil precipitation gradient	9.189192805	-79.77120486	GAZ:Panama	tropical moist broadleaf forest biome	5.9
+1716.McG.PAPrS37	PAPrS37	Panama soil precipitation gradient	9.13468741	-79.6985996	GAZ:Panama	tropical moist broadleaf forest biome	6.2
+1716.McG.PAPrS38	PAPrS38	Panama soil precipitation gradient	9.143727423	-79.69856642	GAZ:Panama	tropical moist broadleaf forest biome	6.4
+1716.McG.PAPrS39	PAPrS39	Panama soil precipitation gradient	9.116534863	-79.68046582	GAZ:Panama	tropical moist broadleaf forest biome	6.4
+1716.McG.PAPrS40	PAPrS40	Panama soil precipitation gradient	9.116536883	-79.68046935	GAZ:Panama	tropical moist broadleaf forest biome	4.6
+1716.McG.PAPrS41	PAPrS41	Panama soil precipitation gradient	9.071731072	-79.79890753	GAZ:Panama	tropical moist broadleaf forest biome	4.5
+1716.McG.PAPrS42	PAPrS42	Panama soil precipitation gradient	9.071699048	-79.78980683	GAZ:Panama	tropical moist broadleaf forest biome	6.2
+1716.McG.PAPrS43	PAPrS43	Panama soil precipitation gradient	9.080259764	-79.65330477	GAZ:Panama	tropical moist broadleaf forest biome	4.9
+1721.B11B	barley soil sample B11B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B11M	barley soil sample B11M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B11T	barley soil sample B11T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B12B	barley soil sample B12B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B12M	barley soil sample B12M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B12T	barley soil sample B12T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B15B	barley soil sample B15B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B15M	barley soil sample B15M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B15T	barley soil sample B15T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B16B	barley soil sample B16B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B16M	barley soil sample B16M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B16T	barley soil sample B16T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B17B	barley soil sample B17B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B17M	barley soil sample B17M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B17T	barley soil sample B17T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B18B	barley soil sample B18B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B18M	barley soil sample B18M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B18T	barley soil sample B18T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B19B	barley soil sample B19B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B19M	barley soil sample B19M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B19T	barley soil sample B19T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B20B	barley soil sample B20B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B20M	barley soil sample B20M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B20T	barley soil sample B20T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B21B	barley soil sample B21B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.B23B	barley soil sample B23B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B23M	barley soil sample B23M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B23T	barley soil sample B23T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B24B	barley soil sample B24B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B24M	barley soil sample B24M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B24T	barley soil sample B24T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B25M	barley soil sample B25M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B25T	barley soil sample B25T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B26B	barley soil sample B26B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B26M	barley soil sample B26M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B26T	barley soil sample B26T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B27B	barley soil sample B27B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B27M	barley soil sample B27M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B27T	barley soil sample B27T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B29B	barley soil sample B29B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.B29M	barley soil sample B29M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.B29T	barley soil sample B29T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.B2B	barley soil sample B2B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B2M	barley soil sample B2M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B3B	barley soil sample B3B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.B3M	barley soil sample B3M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.B3T	barley soil sample B3T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.B4B	barley soil sample B4B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B4M	barley soil sample B4M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B4T	barley soil sample B4T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.B5B	barley soil sample B5B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B5M	barley soil sample B5M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B5T	barley soil sample B5T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B6M	barley soil sample B6M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B6T	barley soil sample B6T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.B7B	barley soil sample B7B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B7M	barley soil sample B7M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B7T	barley soil sample B7T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.B8B	barley soil sample B8B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B8M	barley soil sample B8M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B8T	barley soil sample B8T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.B9B	barley soil sample B9B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B9M	barley soil sample B9M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.B9T	barley soil sample B9T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R10B	barley soil sample R10B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R10M	barley soil sample R10M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R11B	barley soil sample R11B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R11M	barley soil sample R11M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R12M	barley soil sample R12M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R12T	barley soil sample R12T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R13B	barley soil sample R13B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.4
+1721.R13T	barley soil sample R13T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.4
+1721.R14M	barley soil sample R14M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R14T	barley soil sample R14T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R15B	barley soil sample R15B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R15M	barley soil sample R15M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R15T	barley soil sample R15T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R16B	barley soil sample R16B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R16M	barley soil sample R16M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R17B	barley soil sample R17B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R17M	barley soil sample R17M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R17T	barley soil sample R17T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R18B	barley soil sample R18B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R18M	barley soil sample R18M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R1B	barley soil sample R1B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R1M	barley soil sample R1M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R1T	barley soil sample R1T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R20B	barley soil sample R20B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R20M	barley soil sample R20M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R21B	barley soil sample R21B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.R21M	barley soil sample R21M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.R22B	barley soil sample R22B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.R22M	barley soil sample R22M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.R23B	barley soil sample R23B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.R23T	barley soil sample R23T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.R24B	barley soil sample R24B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R24T	barley soil sample R24T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R25B	barley soil sample R25B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R25M	barley soil sample R25M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R26M	barley soil sample R26M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R27B	barley soil sample R27B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R27M	barley soil sample R27M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R28M	barley soil sample R28M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R28T	barley soil sample R28T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R29M	barley soil sample R29M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.R2B	barley soil sample R2B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R2M	barley soil sample R2M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R3B	barley soil sample R3B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.R3T	barley soil sample R3T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.R4B	barley soil sample R4B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R4M	barley soil sample R4M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R4T	barley soil sample R4T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.R5M	barley soil sample R5M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R6B	barley soil sample R6B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R6M	barley soil sample R6M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R6T	barley soil sample R6T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.R7M	barley soil sample R7M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R7T	barley soil sample R7T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.R8B	barley soil sample R8B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.R8M	barley soil sample R8M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.R9B	barley soil sample R9B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R9M	barley soil sample R9M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.R9T	barley soil sample R9T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S10B	barley soil sample S10B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S10M	barley soil sample S10M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S10T	barley soil sample S10T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S11B	barley soil sample S11B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S11M	barley soil sample S11M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S11T	barley soil sample S11T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S12B	barley soil sample S12B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S12M	barley soil sample S12M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S12T	barley soil sample S12T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S13M	barley soil sample S13M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.4
+1721.S13T	barley soil sample S13T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.4
+1721.S14B	barley soil sample S14B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S14M	barley soil sample S14M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S14T	barley soil sample S14T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S15B	barley soil sample S15B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S15T	barley soil sample S15T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S16B	barley soil sample S16B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S16M	barley soil sample S16M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S16T	barley soil sample S16T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S17B	barley soil sample S17B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S17M	barley soil sample S17M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S17T	barley soil sample S17T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S18B	barley soil sample S18B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S18M	barley soil sample S18M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S18T	barley soil sample S18T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S19B	barley soil sample S19B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S19M	barley soil sample S19M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S19T	barley soil sample S19T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S1B	barley soil sample S1B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S1M	barley soil sample S1M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S1T	barley soil sample S1T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S20B	barley soil sample S20B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S20M	barley soil sample S20M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S20T	barley soil sample S20T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S21B	barley soil sample S21B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.S21M	barley soil sample S21M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.S22B	barley soil sample S22B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.S22M	barley soil sample S22M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.S22T	barley soil sample S22T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.S23B	barley soil sample S23B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S23M	barley soil sample S23M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S24B	barley soil sample S24B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S24M	barley soil sample S24M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S24T	barley soil sample S24T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S25B	barley soil sample S25B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S25M	barley soil sample S25M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S25T	barley soil sample S25T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S26B	barley soil sample S26B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S26M	barley soil sample S26M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S26T	barley soil sample S26T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S27B	barley soil sample S27B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S27M	barley soil sample S27M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S27T	barley soil sample S27T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S28B	barley soil sample S28B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S28M	barley soil sample S28M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S28T	barley soil sample S28T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S29B	barley soil sample S29B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.S29M	barley soil sample S29M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.1
+1721.S2B	barley soil sample S2B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S2M	barley soil sample S2M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S2T	barley soil sample S2T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S3B	barley soil sample S3B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.S3M	barley soil sample S3M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.S3T	barley soil sample S3T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.5
+1721.S4B	barley soil sample S4B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S4M	barley soil sample S4M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S4T	barley soil sample S4T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.8
+1721.S5B	barley soil sample S5B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S5M	barley soil sample S5M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S5T	barley soil sample S5T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S6B	barley soil sample S6B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S6M	barley soil sample S6M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S6T	barley soil sample S6T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.7
+1721.S7B	barley soil sample S7B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S7M	barley soil sample S7M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S7T	barley soil sample S7T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.9
+1721.S8B	barley soil sample S8B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S8M	barley soil sample S8M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S8T	barley soil sample S8T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	5.0
+1721.S9B	barley soil sample S9B	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S9M	barley soil sample S9M	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6
+1721.S9T	barley soil sample S9T	Comparative analysis of the microbial communities in agricultural soil amended with enhanced biochars or traditional fertilisers	-28.833000000000002	153.417	GAZ:Australia	cropland biome	4.6

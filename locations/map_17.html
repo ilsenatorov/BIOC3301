@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(51.524735, -0.131080);
+		var myOptions = {
+			zoom: 12,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(51.524735, -0.131080);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/F0F8FF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101.2015.16.1 , 51.524735 , -0.13108",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524392, -0.131120);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/FAEBD7.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101.2015.16.2 , 51.524392 , -0.13112000000000001",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.523861, -0.130600);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/00FFFF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101.2015.16.3 , 51.523861 , -0.1306",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524309, -0.130543);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/7FFFD4.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101.2015.16.4 , 51.524309 , -0.13054300000000002",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524127, -0.130407);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/F0FFFF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.1 , 51.524127 , -0.130407",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524102, -0.130661);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/F5F5DC.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.2 , 51.524102 , -0.130661",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524355, -0.130789);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/FFE4C4.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.3 , 51.524355 , -0.13078900000000002",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524586, -0.131266);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/000000.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.4 , 51.524586 , -0.13126600000000002",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524546, -0.130894);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/FFEBCD.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.5 , 51.524546 , -0.130894",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524224, -0.131111);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/0000FF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.6 , 51.524224 , -0.13111099999999998",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.523972, -0.130877);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/8A2BE2.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.7 , 51.523972 , -0.130877",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524363, -0.131291);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/A52A2A.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3301.2016.17.8 , 51.524363 , -0.13129100000000002",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>

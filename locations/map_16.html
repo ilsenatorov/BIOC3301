@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(51.524735, -0.131080);
+		var myOptions = {
+			zoom: 12,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(51.524735, -0.131080);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/F0F8FF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101_group1_2016 , 51.524735 , -0.13108",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524392, -0.131120);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/FAEBD7.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101_group2_2016 , 51.524392 , -0.13112000000000001",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.523861, -0.130600);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/00FFFF.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101_group3_2016 , 51.523861 , -0.1306",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(51.524309, -0.130543);
+		var img = new google.maps.MarkerImage('/usr/lib/python3.6/site-packages/gmplot/markers/7FFFD4.png');
+		var marker = new google.maps.Marker({
+		title: "bioc3101_group4_2016 , 51.524309 , -0.13054300000000002",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>

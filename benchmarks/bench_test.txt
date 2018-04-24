@@ -1,0 +1,14 @@
+Number of cores 1
+449.62
+Number of cores 2
+234.61
+Number of cores 4
+134.56
+Number of cores 8
+187.67
+Number of cores 16
+56.62
+Number of cores 24
+43.12
+Number of cores 32
+15.45

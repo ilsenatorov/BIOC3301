@@ -1,13 +1,35 @@
-*
-*/
+### Hidden files
+#
+#
+.*
 !.gitignore
 !.bashrc
-!LICENSE.md
-!README.md
-!worklog.md
-!scripts/
-!scripts/**
-!fin_scripts/
-!fin_scripts/**
-!fin_worklog.md
+### Extensions
+#
+#
+*.gz
+*.fna
+*.log
+*.e*
+*.o*
+*__*__*
+*.biom
+*.pyc
+*.fls
+*.aux
+*.fdb_latexmk
+*.pdf
+*.bbl
+*.blg
 
+
+### Directories
+16/
+17/
+18/
+networks/
+report/**
+qiime_tmp/
+
+### Special
+!report/Report.tex
