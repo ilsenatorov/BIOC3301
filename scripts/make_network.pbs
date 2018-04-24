@@ -11,7 +11,6 @@ source activate qiime1
 
 
 make_otu_network.py \
--i ~/18/de_novo_otus/otu_table.biom \
--m ~/18/map_corrected.tsv \
--o ~/18/otu_network/ \
--b "Description"
+-i ~/18/silva_otus/otu_table.biom \
+-m ~/18/map.tsv \
+-o ~/18/otu_network/

@@ -10,7 +10,7 @@ export TMPDIR=~/qiime_tmp
 source activate qiime1
 
 /usr/bin/time -f %e validate_mapping_file.py \
--m ~/18/raw_data/map_incomplete.tsv \
+-m ~/18/raw_data/map.tsv \
 -o ~/18/map_validation/
 
 source deactivate
