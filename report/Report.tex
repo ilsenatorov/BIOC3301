@@ -18,9 +18,9 @@
 \usepackage{lettrine}
 \usepackage{graphicx}
 \usepackage{multicol}
+\usepackage{wrapfig}
 \usepackage{enumitem} 
 \setlist[itemize]{noitemsep} 
-
 \usepackage{abstract} 
 \renewcommand{\abstractnamefont}{\normalfont\bfseries}
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} 
@@ -93,7 +93,7 @@ The analysis was performed on 30 samples of soil, collected in Central London in
 %
 First, DNA was extracted using the \textit{DNeasy PowerSoil Kit}, and PCR primers were designed that contained Golay barcodes, allowing multiple samples to be sequenced simultaneously. \textit{BioMic PCR kit} was used with the aforementioned primers to perform the PCR. The mix acquired as the result of PCR was purified using \textit{QIAquick PCR Purification Kit}, and then the concentration of dsDNA was measured using \textit{SpectraMax Quant™ AccuClear Nano dsDNA Assay Kit}. Then all the samples were diluted to contain equal concentrations of DNA, and sequncing was performed on \textit{Illumina's MiSeq} sequncer. This workflow returned the raw DNA sequences that were used for downstream analysis.\\
 %
-Analysis of sequences was performed using the QIIME\footnote{Version 1.9.1} package\cite{Caporaso2010,Kuczynski2012}, which allows users to perform high-throughput sequence analysis. The basic pipeline consists of:
+Analysis of sequences was performed using the QIIME\footnote{Version 1.9.1} package\cite{Caporaso2010,Kuczynski2012} for python programming language, which allows users to perform high-throughput sequence analysis. The basic pipeline consists of:
 \begin{enumerate}
 	\item Data validation - checks the input data for errors
 	\item Sequence demultiplexing - recognises the Golay barcodes and splits data back into 30 samples.
@@ -104,38 +104,35 @@ This pipeline sets the foundation for any further analysis and is generally the 
 
 In order to analyse our samples, I used the QIIME scripts, such as core\_diversity\_analyses.py, which allows users to take a look at basic properties of the microbial communities, such as alpha and beta diversities. However, it should be noted that while providing good results in terms of data, these work-flows lack in the area of visualising data, which lead me to creation of my own visualisation scripts\cite{Anonymous2018}. They allow us to validate the results of our analysis, by using the data from the EMP, and points out the issues in the collected data.\\
 %
-A tool that can be useful to determine whether the samples we collected are representative of the source, is sourcetracker\cite{Knights2011}, a tool that allows users to track proportion of each \textit{source} in each \textit{sink}, source and sink being all different samples of soil from EMP and our samples respectively. After filtering the data running sourcetracker and visualising the data\footnote{Detailed information can be found \href{https://github.com/nameisBaron-MichaelBaron/BIOC3301/tree/master/sourcetracker}{here}}, we receive the heatmap of how much of each source is present in each of our samples.
-\end{multicols}
+A tool that can be useful to determine whether the samples we collected are representative of the source, is sourcetracker\cite{Knights2011}, a tool that allows users to track proportion of each \textit{source} in each \textit{sink}, source and sink being all different samples of soil from EMP and our samples respectively. After filtering the data running sourcetracker and visualising the data\footnote{Detailed information can be found \href{https://github.com/nameisBaron-MichaelBaron/BIOC3301/tree/master/sourcetracker}{here}}, we receive the heatmap of how much of each source is present in each of our samples\ref{fig:sourcetracker_heatmap}.
 \begin{figure}[H]
-	\includegraphics[width=\textwidth]{../sourcetracker/heatmap_perc.png}
-	\caption{Heatmap showing the proportion of each source in each sink, percentage}
+	\includegraphics[width=1\linewidth]{../sourcetracker/heatmap_perc.png}
+	\caption{Heatmap showing the proportion of each source in each sink, percentage. as we can see, while the "Unknown" section still stands for high proportion of most sinks, there are 3 prominent sources in most samples - agricultural soil, national park and field soil. These are results from }
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
-\begin{multicols}{2}
+In an attempt to find a correlation between metadata and the diversity of our samples, scripts provided by QIIME were used, coupled with the numpy, scipy and pandas packages in python.  
 
 %------------------------------------------------
 
 \section{Results}
 
-During the OTU picking stage, I managed to recover over 4.5 million sequences overall, with 16448 of them being unique. However, it should be noted, that due to use of closed-reference OTU picking, which was used due to being cheaper, almost 800 thousand sequences (\~17\%) were removed from the analysis since no match was found in the database. This correlates with the  Because these sequences were not found in the database, it can be assumed that they were rare and could have severely influenced diversity of the samples.\\
-%
-Another issue that I can point out with the OTU picking method, is the limitation imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, already covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered up OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results. \\
 
-\begin{figure}
-	\includegraphics[width=\linewidth]{./figs/EMP_SILVA.jpg}
+
+\begin{figure}[H]
+	\includegraphics[width=1\linewidth]{./figs/EMP_SILVA.jpg}
 	\caption{Comparison of Greengenes with SILVA databases, with number of reads in EMP samples, grouped by environment. Boxplots show median, IQR, and 1.5 × IQR (with outliers). Adapted from \cite{Thompson2017}}
 	\label{fig:EMP_Silva}
 \end{figure}
 
 
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.pdf}
 	\caption{Alpha diversity (Chao1) for each of 30 samples. Obvious outliers can be seen.}
 	\label{fig:alpha_diversity}
 \end{figure}
 \section{Discussion}
-\newpage
+
 \bibliographystyle{vancouver}
 \bibliography{/home/ilya/Documents/Citations/3301.bib}
 
