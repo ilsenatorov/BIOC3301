@@ -1,10 +1,4 @@
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass{article}
-
-
 \usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc} 
 \linespread{1.05} 
@@ -12,129 +6,109 @@
 \usepackage[export]{adjustbox}
 \usepackage[english]{babel} 
 \usepackage{float}
-\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} 
-\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
+\usepackage[hmarginratio=1:1,top=15mm,left=15mm,columnsep=15pt]{geometry} 
+\usepackage[small,labelfont=bf,up,textfont=it,up]{caption} 
 \usepackage{booktabs} 
 \usepackage{lettrine}
 \usepackage{graphicx}
 \usepackage{multicol}
-\usepackage{wrapfig}
 \usepackage{enumitem} 
 \setlist[itemize]{noitemsep} 
 \usepackage{abstract} 
 \renewcommand{\abstractnamefont}{\normalfont\bfseries}
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} 
-
 \usepackage{titlesec} 
 \renewcommand\thesection{\Roman{section}} 
 \renewcommand\thesubsection{\roman{subsection}} 
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} 
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} 
-
-\usepackage{fancyhdr}
-\pagestyle{fancy} 
-\fancyhead{} 
-\fancyfoot{} 
-%\fancyhead[C]{ title $\bullet$ date} % Custom header text
-%\fancyfoot[RO,LE]{\thepage} % Custom footer text
-
+\pagenumbering{arabic}
 \usepackage{titling} 
-
 \usepackage{hyperref} 
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
-
-\setlength{\droptitle}{-4\baselineskip} % Move the title up
-
+\setlength{\droptitle}{-4\baselineskip}
 \pretitle{\begin{center}\Huge\bfseries} 
 \posttitle{\end{center}} 
 \title{Problems that arise when peforming a small-scale soil microbiome analysis and how to prevent them} 
 \author{
-\\
 \normalsize University College London \\
 }
 \date{May 8, 2018}
 \renewcommand{\maketitlehookd}{
 \begin{abstract}
 \noindent 
-%
-%ABSTRACT
-%
-%
-
 \end{abstract}
 }
 \bibliographystyle{vancouver}
-%----------------------------------------------------------------------------------------
-
 \begin{document}
-
+\setcounter{page}{1}
+\pagenumbering{arabic}
 \maketitle
-
-%	ARTICLE CONTENTS
-
 \begin{multicols}{2}
-	content...
-
 \section{Introduction}
-
 \lettrine[nindent=0em,lines=3]{M}icrobiome analysis is an area of research that relies heavily on large samples and big amounts of data \cite{Thompson2017}. In this research I describe our attempt to conduct a small-scale soil microbiome analysis and the problems that occurred.\\
 One of the main areas of development in the field of microbiome analysis is the EMP - Earth Microbiome Project\cite{Gilbert2014}. It focuses on creation of a global catalogue of Earth's microbial diversity.
-
-
 One of the main aims of the analysis was to check whether the samples we collected follow the general trends of diversity and to confirm that the sample can be added to the EMP database.
-
-%-----------------------------------------------
-
 \section{Methods}
-
 The analysis was performed on 30 samples of soil, collected in Central London in October 2017. Metadata, such as moisture, temperature, footfall was collected on the spot, while other aspects, such as pH and concentrations of various ions was measured in the laboratory. Then 4 different kits were used in a workflow designed to extract the 16S V4 DNA region from the prokaryotes in the soil, following the instructions provided by manufacturer of each kit. \\
 %
 First, DNA was extracted using the \textit{DNeasy PowerSoil Kit}, and PCR primers were designed that contained Golay barcodes, allowing multiple samples to be sequenced simultaneously. \textit{BioMic PCR kit} was used with the aforementioned primers to perform the PCR. The mix acquired as the result of PCR was purified using \textit{QIAquick PCR Purification Kit}, and then the concentration of dsDNA was measured using \textit{SpectraMax Quant™ AccuClear Nano dsDNA Assay Kit}. Then all the samples were diluted to contain equal concentrations of DNA, and sequncing was performed on \textit{Illumina's MiSeq} sequncer. This workflow returned the raw DNA sequences that were used for downstream analysis.\\
-%
 Analysis of sequences was performed using the QIIME\footnote{Version 1.9.1} package\cite{Caporaso2010,Kuczynski2012} for python programming language, which allows users to perform high-throughput sequence analysis. The basic pipeline consists of:
 \begin{enumerate}
 	\item Data validation - checks the input data for errors
 	\item Sequence demultiplexing - recognises the Golay barcodes and splits data back into 30 samples.
 	\item OTU picking - for sequence analysis, it is preferable to work not with sequences directly, but with OTUs - Operational Taxonomic Units, which in out case correlate with a single species.
 \end{enumerate}
-%
 This pipeline sets the foundation for any further analysis and is generally the most expensive part of the analysis, in terms of computational power. It requires a referencing database, for which I used SILVA\cite{Quast2012}\footnote{Release 132, April 10, 2018}, which is more up-to-date than Greengenes\cite{McDonald2012}.\\
-
 In order to analyse our samples, I used the QIIME scripts, such as core\_diversity\_analyses.py, which allows users to take a look at basic properties of the microbial communities, such as alpha and beta diversities. However, it should be noted that while providing good results in terms of data, these work-flows lack in the area of visualising data, which lead me to creation of my own visualisation scripts\cite{Anonymous2018}. They allow us to validate the results of our analysis, by using the data from the EMP, and points out the issues in the collected data.\\
-%
-A tool that can be useful to determine whether the samples we collected are representative of the source, is sourcetracker\cite{Knights2011}, a tool that allows users to track proportion of each \textit{source} in each \textit{sink}, source and sink being all different samples of soil from EMP and our samples respectively. After filtering the data running sourcetracker and visualising the data\footnote{Detailed information can be found \href{https://github.com/nameisBaron-MichaelBaron/BIOC3301/tree/master/sourcetracker}{here}}, we receive the heatmap of how much of each source is present in each of our samples\ref{fig:sourcetracker_heatmap}.
+A tool that can be useful to determine whether the samples we collected are representative of the source, is sourcetracker\cite{Knights2011}, a tool that allows users to track proportion of each \textit{source} in each \textit{sink}, source and sink being all different samples of soil from EMP and our samples respectively. After filtering the data running sourcetracker and visualising the data\footnote{Detailed information can be found \href{https://github.com/nameisBaron-MichaelBaron/BIOC3301/tree/master/sourcetracker}{here}}, we receive the heatmap of how much of each source is present in each of our samples.
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{../sourcetracker/heatmap_perc.png}
-	\caption{Heatmap showing the proportion of each source in each sink, percentage. as we can see, while the "Unknown" section still stands for high proportion of most sinks, there are 3 prominent sources in most samples - agricultural soil, national park and field soil. These are results from }
+	\caption{Heatmap showing the proportion of each source in each sink, percentage. as we can see, while the "Unknown" section still stands for high proportion of most sinks, there are 3 prominent sources in most samples - agricultural soil, national park and field soil. }
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
-In an attempt to find a correlation between metadata and the diversity of our samples, scripts provided by QIIME were used, coupled with the numpy, scipy and pandas packages in python.  
-
-%------------------------------------------------
-
+In an attempt to find a correlation between metadata and the diversity of our samples, scripts provided by QIIME were used, and metadata was transformed into numeric exponential form. \\
+The results can be seen in the table below.
+\begin{table}[H]
+	\begin{center}
+		\label{tab:table_correlation}
+		\begin{tabular}{c|c|c}
+			\textbf{Category} & \textbf{R-value} & \textbf{p-value}\\
+			\hline
+			pH & -0.109 & 0.869\\
+			Potassium & 0.224 & 0.023\\
+			Nitrogen & 0.120 & 0.120 \\
+			Phosphorus & 0.201 & 0.058\\
+		\end{tabular}
+	\caption{Correlation between metadata and beta-diversity, calculated using ANOSIM\cite{CLARKE1993} methodic.}
+	\end{center}
+\end{table}
 \section{Results}
-
-
-
+During the OTU picking stage, I managed to recover over 4.5 million sequences overall, with 16448 of them being unique. However, it should be noted, that due to use of closed-reference OTU picking, which was used due to being cheaper, almost 800 thousand sequences(1̃7\%) were removed from the analysis since no match was found in the database. This result is similar to the ones that were obtained on the larger-scale analogue of this research, pictured in the Figure \ref{fig:EMP_Silva}, shown below.
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{./figs/EMP_SILVA.jpg}
 	\caption{Comparison of Greengenes with SILVA databases, with number of reads in EMP samples, grouped by environment. Boxplots show median, IQR, and 1.5 × IQR (with outliers). Adapted from \cite{Thompson2017}}
 	\label{fig:EMP_Silva}
 \end{figure}
-
-
-
+Because these sequences were not found in the database, it can be assumed that they were rare and could have
+severely influenced diversity of the samples. Another issue that I can point out with the OTU picking method, is the limitations imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, already covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered up to 50\% of the databases. \\
+It can be noticed that there is no significant correlations between any of the metadata categories and the diversity. However, similar large-scale analyses reported that there is a correlation between richness and diversity and pH\cite{Thompson2017,Fierer2006,Wu2016}. 
 \begin{figure}[H]
+	\captionsetup{width=\linewidth}
 	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.pdf}
-	\caption{Alpha diversity (Chao1) for each of 30 samples. Obvious outliers can be seen.}
+	\caption{Alpha diversity (Chao1) for each of 30 samples. Obvious outliers can be seen, in samples 515rcbc20 and 515rcbc12, which were collected outside the main area of analysis(Gordon square in Central London), in soil near canal and compost respectively.}
 	\label{fig:alpha_diversity}
 \end{figure}
-\section{Discussion}
+\begin{figure}[H]
+	\captionsetup{width=\linewidth}
+	\includegraphics[width=\linewidth]{../analyses/figs/unweighted_beta.png}
+	\caption{Beta diversity (unweighted unifrac). Obvious outliers can be noted again, with samples 515rcbc12 and 515rcbc36 having the biggest distances from other samples.}
+	\label{fig:beta_diversity}
+\end{figure}
 
+\section{Discussion}
+OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results.
+\newpage
 \bibliographystyle{vancouver}
 \bibliography{/home/ilya/Documents/Citations/3301.bib}
-
 \end{multicols}
 \end{document}

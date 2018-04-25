@@ -1,0 +1,37 @@
+ANOSIM comparison of categories
+
+Ph
+method name	ANOSIM
+test statistic name	R
+sample size	30
+number of groups	8
+test statistic	-0.10911111111111106
+p-value	0.84699999999999998
+number of permutations	999
+
+Potassium
+method name	ANOSIM
+test statistic name	R
+sample size	30
+number of groups	5
+test statistic	0.2236809876059373
+p-value	0.031
+number of permutations	999
+
+Nitrogen
+method name	ANOSIM
+test statistic name	R
+sample size	30
+number of groups	6
+test statistic	0.12027173913043475
+p-value	0.11799999999999999
+number of permutations	999
+
+Phosphorus
+method name	ANOSIM
+test statistic name	R
+sample size	30
+number of groups	6
+test statistic	0.2006074560329201
+p-value	0.055
+number of permutations	999

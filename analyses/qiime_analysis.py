@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def plot_heatmap(dataframe, title=False, savename=False, fmt='d', annot=True):
+def plot_heatmap(dataframe, title=False, savename=False, fmt='d', annot=True, cbar=True):
     matplotlib.rcParams.update({'font.size': 25})
 
     fig, ax = plt.subplots(figsize=(40,30), dpi=100)
@@ -13,7 +13,8 @@ def plot_heatmap(dataframe, title=False, savename=False, fmt='d', annot=True):
                 square=True,
                 annot=annot,
                 fmt=fmt,
-                annot_kws={"size":8})
+                annot_kws={"size":8},
+                cbar=cbar)
     if title:
         plt.title(title, fontsize=40)
     if savename:
@@ -21,8 +22,11 @@ def plot_heatmap(dataframe, title=False, savename=False, fmt='d', annot=True):
     plt.show()
 
 def sort_df(dataframe):
-    dataframe.sort_index(inplace=True)
-    return dataframe[sorted(dataframe.columns)]
+    cols = []
+    for num in range(8,38):
+        cols.append('515rcbc'+str(num))
+    dataframe = dataframe.reindex(reversed(cols))
+    return dataframe[cols]
 
 def plot_bar(dataframe, metric, title=False, savename=False, dpi=100, ylabel=False, xlabel='SampleID'):
     matplotlib.rcParams.update({'font.size': 14})
