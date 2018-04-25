@@ -1,12 +1,14 @@
-### Hidden files
+### HIDDEN FILES
 #
 #
 .*
 !.gitignore
 !.bashrc
-### Extensions
-#
-#
+
+
+### EXTENSIONS
+
+
 *.gz
 *.fna
 *.log
@@ -18,12 +20,13 @@
 *.fls
 *.aux
 *.fdb_latexmk
-*.pdf
 *.bbl
 *.blg
 
 
-### Directories
+### DIRECTORIES
+
+
 16/
 17/
 18/
@@ -31,5 +34,10 @@ networks/
 report/**
 qiime_tmp/
 
-### Special
+
+### SPECIAL
+
+
 !report/Report.tex
+!report/figs/**
+!report/figs/

@@ -2,22 +2,22 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[twoside,twocolumn]{article}
+\documentclass{article}
 
 
 \usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc} 
 \linespread{1.05} 
 \usepackage{microtype} 
-
+\usepackage[export]{adjustbox}
 \usepackage[english]{babel} 
-
+\usepackage{float}
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} 
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
 \usepackage{booktabs} 
 \usepackage{lettrine}
 \usepackage{graphicx}
-
+\usepackage{multicol}
 \usepackage{enumitem} 
 \setlist[itemize]{noitemsep} 
 
@@ -51,7 +51,7 @@
 \posttitle{\end{center}} 
 \title{Problems that arise when peforming a small-scale soil microbiome analysis and how to prevent them} 
 \author{
-\textsc{Ilya Senatorov} \\
+\\
 \normalsize University College London \\
 }
 \date{May 8, 2018}
@@ -74,6 +74,8 @@
 
 %	ARTICLE CONTENTS
 
+\begin{multicols}{2}
+	content...
 
 \section{Introduction}
 
@@ -100,7 +102,16 @@ Analysis of sequences was performed using the QIIME\footnote{Version 1.9.1} pack
 %
 This pipeline sets the foundation for any further analysis and is generally the most expensive part of the analysis, in terms of computational power. It requires a referencing database, for which I used SILVA\cite{Quast2012}\footnote{Release 132, April 10, 2018}, which is more up-to-date than Greengenes\cite{McDonald2012}.\\
 
-
+In order to analyse our samples, I used the QIIME scripts, such as core\_diversity\_analyses.py, which allows users to take a look at basic properties of the microbial communities, such as alpha and beta diversities. However, it should be noted that while providing good results in terms of data, these work-flows lack in the area of visualising data, which lead me to creation of my own visualisation scripts\cite{Anonymous2018}. They allow us to validate the results of our analysis, by using the data from the EMP, and points out the issues in the collected data.\\
+%
+A tool that can be useful to determine whether the samples we collected are representative of the source, is sourcetracker\cite{Knights2011}, a tool that allows users to track proportion of each \textit{source} in each \textit{sink}, source and sink being all different samples of soil from EMP and our samples respectively. After filtering the data running sourcetracker and visualising the data\footnote{Detailed information can be found \href{https://github.com/nameisBaron-MichaelBaron/BIOC3301/tree/master/sourcetracker}{here}}, we receive the heatmap of how much of each source is present in each of our samples.
+\end{multicols}
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{../sourcetracker/heatmap_perc.png}
+	\caption{Heatmap showing the proportion of each source in each sink, percentage}
+	\label{fig:sourcetracker_heatmap}
+\end{figure}
+\begin{multicols}{2}
 
 %------------------------------------------------
 
@@ -111,31 +122,22 @@ During the OTU picking stage, I managed to recover over 4.5 million sequences ov
 Another issue that I can point out with the OTU picking method, is the limitation imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, already covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered up OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results. \\
 
 \begin{figure}
-	\includegraphics[width=\linewidth]{silva_greengenes_emp.jpg}
+	\includegraphics[width=\linewidth]{./figs/EMP_SILVA.jpg}
 	\caption{Comparison of Greengenes with SILVA databases, with number of reads in EMP samples, grouped by environment. Boxplots show median, IQR, and 1.5 × IQR (with outliers). Adapted from \cite{Thompson2017}}
 	\label{fig:EMP_Silva}
 \end{figure}
 
-In order to analyse our samples, I used the QIIME scripts, such as core\_diversity\_analyses.py, which allows users to take a look at basic properties of the microbial communities, such as alpha and beta diversities. However, it should be noted that while providing good results in terms of data, these workflows lack in the area of visualising data, which lead me to creation of my own visualisation scripts\cite{Senatorov2018}. They allow us to validate the results of our analysis , by using the data from the EMP, and points out the issues in the collected data.
+
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.pdf}
 	\caption{Alpha diversity (Chao1) for each of 30 samples. Obvious outliers can be seen.}
 	\label{fig:alpha_diversity}
 \end{figure}
-%------------------------------------------------
-
 \section{Discussion}
-
-
 \newpage
-%----------------------------------------------------------------------------------------
-%	REFERENCE LIST
-%----------------------------------------------------------------------------------------
-
 \bibliographystyle{vancouver}
 \bibliography{/home/ilya/Documents/Citations/3301.bib}
 
-%----------------------------------------------------------------------------------------
-
+\end{multicols}
 \end{document}
