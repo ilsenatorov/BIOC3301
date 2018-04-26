@@ -18,34 +18,36 @@ Has the scripts that were used in the basic pipeline of OTU picking, sequence al
 ### Alpha, beta diversities and else
 
 Contains the majority of the analyses performed, with the [jupyter notebook](./analyses/analyses.ipynb) that was used to create majority of the plots as well as some data.
-***
 #### Chao1 alpha-diversity
 ![chao1](./analyses/figs/chao1_alpha.png)
-***
 #### Unweighted unifrac beta-diversity
 ![unweight](./analyses/figs/unweighted_beta.png)
+
+***
 
 ### Sourcetracker
 
 [Jupyter Notebook](./sourcetracker/sourcetracker.ipynb) takes data from the results of sourcetracker script, and plots graphs from them.
 
-***
 #### Sourcetracker heatmap (no 'Unknown')
 
+
 ![sourcetrack](./sourcetracker/heatmap_perc.png)
+
 ***
 ### Uniqueness
 
 [This notebook](./qualitative/uniqueness.ipynb) takes a look at how unique each sample is and plots it.
 
-***
 #### Uniqueness
+
 ![uniq](./qualitative/uniqueness.png)
 ***
 ### Taxonomy
 
 [Jupyter notebook](./taxonomy/taxa.ipynb) that was used to plot most of the taxonomy-related figures.
-***
+
+#### Top 10 most abundant phyla (only archea in green)
 ![top_tax](./taxonomy/top_10.png)
 
 ## Meta calculations and plots
@@ -57,5 +59,5 @@ Contains the majority of the analyses performed, with the [jupyter notebook](./a
 ### Benchmarking
 
 The [benchmarking Jupyter Notebook](./benchmarks/Benchmark_efficiency.ipynb) calculates efficiency from the times of running a process on different cores. More info in the folder's [README](./benchmarking/)
-***
+
 ![bench](./benchmarks/closed_otus_out.png)
