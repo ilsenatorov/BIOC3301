@@ -35,6 +35,8 @@ def plot_bar(dataframe, metric, title=False, savename=False, dpi=100, ylabel=Fal
     plt.bar(dataframe.index, dataframe[metric], color='purple')
     plt.xticks(rotation=90)
     plt.ylabel(metric, fontsize=14)
+    ax.grid(axis='y')
+    ax.set_axisbelow(True)
     if title:
         plt.title(title, fontsize=18)
     if xlabel:
