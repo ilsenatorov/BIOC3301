@@ -116,7 +116,7 @@ It can be noticed from Table 1, that there is no significant correlation between
 In order to assess the composition of each sample, results from the sourcetracker analysis are presented in Figure \ref{fig:sourcetracker_heatmap}. It can be seen that most samples show highest relatedness to 3 different biomes - national park soil, field soil and agricultural soil, which is consistent with what would be expected. Sample \textit{515rcbc20} had to be excluded from the analysis due to having a very low number of OTUs observed (653), which prevents sourcetracker from producing sensible results, however the uniformity and good clustering of the rest of the samples is indirectly confirmed by this test as well. If the sample size was larger, the outliers and strange correlations, such as high proportion of wetland source in many samples could be explained, however it is impossible on this sample.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{../sourcetracker/heatmap_perc.png}
-	\caption{Heatmap showing the prcentage of each source in each sink. The sum of values for each sample (rows) is not equal to 100\% because the "Unknown" row is not shown here. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
+	\caption{Heatmap showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% because the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
 \par
@@ -125,7 +125,7 @@ While different methods can be used, I chose the Chao1 metric, which estimates s
 The alpha diversity is presented below (Fig. \ref{fig:alpha_diversity}) and shows the 2 outlying samples - 515rcbc12 and 515rcbc20 having an unusually high and low alpha-diversity respectively.
 \begin{figure}[H]
 	\captionsetup{width=\linewidth}
-	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.pdf}
+	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.png}
 	\caption{Alpha diversity (Chao1) for each of 30 samples.Samples 515rcbc20 and 515rcbc12 are outliers, which is could be du to the fact that they were collected outside the main location of analysis (Gordon Square in Central London), in soil near canal and compost respectively.}
 	\label{fig:alpha_diversity}
 \end{figure}
