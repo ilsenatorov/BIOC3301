@@ -30,9 +30,9 @@ def sort_df(dataframe):
 
 def plot_bar(dataframe, metric, title=False, savename=False, dpi=100, ylabel=False, xlabel='SampleID'):
     matplotlib.rcParams.update({'font.size': 14})
-    fig, ax = plt.subplots(figsize=(8,6))
+    fig, ax = plt.subplots(figsize=(9,6))
     dataframe = dataframe.sort_values(metric, axis=0)
-    plt.bar(dataframe.index, dataframe[metric])
+    plt.bar(dataframe.index, dataframe[metric], color='purple')
     plt.xticks(rotation=90)
     plt.ylabel(metric, fontsize=14)
     if title:
