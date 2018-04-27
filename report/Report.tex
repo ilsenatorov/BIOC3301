@@ -1,55 +1,44 @@
-\documentclass[12pt]{article}
-\usepackage[sc]{mathpazo}
-\usepackage[T1]{fontenc} 
-\linespread{1.05} 
-\usepackage{microtype} 
-\usepackage[export]{adjustbox}
-\usepackage[english]{babel} 
+\documentclass[12pt,twocolumn]{article}
 \usepackage[hmarginratio=1:1,top=15mm,left=15mm,columnsep=15pt]{geometry} 
-\usepackage[small,labelfont=bf,up,textfont=it,up]{caption}
-\usepackage{float}
-\usepackage{booktabs} 
-\usepackage{lettrine}
 \usepackage{graphicx}
-\usepackage{multicol}
-\usepackage{enumitem}
-\setlength{\parindent}{3ex}
-\setlength{\parskip}{0ex}
-\setlist[itemize]{noitemsep} 
-\usepackage{abstract} 
-\renewcommand{\abstractnamefont}{\normalfont\bfseries}
-\renewcommand{\abstracttextfont}{\normalfont\small\itshape} 
-\usepackage{titlesec} 
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{titling} 
+\usepackage{abstract}
+\usepackage{titlesec}
+%\usepackage[utf8]{inputenc}
+%\usepackage[russian]{babel}
 \renewcommand\thesection{\Roman{section}} 
 \renewcommand\thesubsection{\roman{subsection}} 
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} 
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} 
 \titlespacing*{\section}
 {0pt}{\baselineskip}{\baselineskip}
-\setlength{\intextsep}{1ex}
-\usepackage{titling} 
-\usepackage{hyperref} 
-\setlength{\droptitle}{-4\baselineskip}
+\usepackage[small,labelfont=bf,up,textfont=it,up]{caption}
+\renewcommand{\abstractnamefont}{\normalfont\bfseries}
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape}
 \pretitle{\begin{center}\Huge\bfseries} 
-\posttitle{\end{center}} 
+	\posttitle{\end{center}} 
 \title{Problems that arise when peforming a small-scale soil microbiome analysis and how to prevent them} 
-\author{
-\normalsize University College London \\
-}
+\author{\normalsize University College London \\}
 \date{\today}
 \renewcommand{\maketitlehookd}{
-\begin{abstract}
-\noindent 
-\end{abstract}
+	\begin{abstract}
+		\noindent
+		some random stuff
+	\end{abstract}
 }
+\setlength{\parindent}{7mm}
+\setlength{\parskip}{0mm}
+\setlength{\intextsep}{0mm}
+\setlength{\textfloatsep}{5mm}
 \begin{document}
-
+	
 \maketitle
-\begin{multicols}{2}
-	
-	
+
 \section{Introduction}
-\lettrine[nindent=0em,lines=3]{M}icrobiome analysis is an area of research that relies heavily on large samples and big amounts of data. Since the correlations between the data itself and the metadata is rarely too strong, it is important to have a wide range of samples from different biomes in order to reliably report such correlations.
+Microbiome analysis is an area of research that relies heavily on large samples and big amounts of data. Since the correlations between the data itself and the metadata is rarely too strong, it is important to have a wide range of samples from different biomes in order to reliably report such correlations.
 \par
 For that reason, one of the main areas of development in the field of microbiome analysis is the creation of a big databases with variety of samples from a range of biomes. The biggest development in this area is  EMP - Earth Microbiome Project\cite{Gilbert2014}. It was created in 2010 and focuses on creation of a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for criminologists and specialists in other area looking for insight into the microbial ecology of different areas.
 \par
@@ -65,11 +54,6 @@ The analysis was performed on 30 samples of soil, collected in Central London in
 First, DNA was extracted using the \textit{DNeasy PowerSoil Kit} and PCR primers were designed that contained Golay barcodes, allowing multiple samples to be sequenced simultaneously. \textit{BioMic PCR kit} was used with the primers to perform the PCR. The solution acquired as the result of PCR was purified using \textit{QIAquick PCR Purification Kit} and then the concentration of dsDNA was measured using \textit{SpectraMax Quant AccuClear Nano dsDNA Assay Kit}. Using the information on DNA concentration all of the samples were subsequently diluted to equal concentrations and sequencing was performed on \textit{Illumina's MiSeq} sequencer. This workflow returned the DNA sequences that were used for downstream \textit{in silico} analysis.
 \par
 Analysis of sequences was performed using the QIIME\footnote{Version 1.9.1} package\cite{Caporaso2010,Kuczynski2012}, which allows users to perform high-throughput sequence analysis. Parts of analysis that required sever computational power were performed on the Cirrus High-Performance Computing system. The basic pipeline consists of:
-\begin{enumerate}
-	\item Data validation - checks the input data for errors
-	\item Sequence demultiplexing - recognises the Golay barcodes and splits data back into 30 samples.
-	\item OTU picking - for sequence analysis, it is preferable to work not with sequences directly, but with OTUs - Operational Taxonomic Units, which in our case stand for a single species.
-\end{enumerate}
 \par 
 OTU picking requires a referencing database, for which I used SILVA\cite{Quast2012}\footnote{Release 132, April 10, 2018}, which is more up-to-date than Greengenes\cite{McDonald2012}. This pipeline sets the foundation for any further analysis and is generally the most expensive part of the analysis, in terms of computational power. For this reason it was performed on the Cirrus HPC, and most of the analysis described below was performed on a local machine. 
 \par
@@ -88,17 +72,31 @@ In general, the analysis after the OTU picking stage was mostly performed using 
 % RESULTS
 %
 \section{Results} 
-During the OTU picking stage, over 4.5 million sequences were recovered from raw data, with 16448 of them being unique. However, it should be noted, that due to use of closed-reference OTU picking, almost 800 thousand sequences (17\%) were removed from the downstream analysis since no match was found in the databases. 
-\begin{figure}[H]
-	\includegraphics[width=1\linewidth]{./figs/EMP_SILVA.jpg}
-	\caption{Comparison of Greengenes with SILVA databases, with number of reads in EMP samples, grouped by environment. Boxplots show median, IQR, and 1.5 × IQR (with outliers). Adapted from \cite{Thompson2017}}
-	\label{fig:EMP_Silva}
+During the OTU picking stage, over 4.5 million sequences were recovered from raw data, with 16448 of them being unique. However, it should be noted, that due to use of closed-reference OTU picking, almost 800 thousand sequences (17\%) were removed from the downstream analysis because no match was found in the databases. 
+\par
+This result is consistent with results obtained in the research performed by Thompson et al.\cite{Thompson2017} on the data from the EMP database, in which they reported that amongst soil samples 20\% of sequences were not identified with SILVA closed-reference OTU picking.
+\par
+Using the OTU table that was produced as a result of the OTU picking alpha diversity was measured, which assesses the number of unique OTU for each sample. While different methods can be used, I chose the Chao1 metric, which estimates species richness based on a matrix of abundance data. 
+The distribution of alpha diversities between the samples is presented below in Figure \ref{fig:alpha_diversity}.
+\begin{figure}[ht!]
+	\includegraphics[width=\linewidth]{chao1_alpha.png}
+	\caption{Alpha diversity (Chao1) for each of 30 samples. Samples 515rcbc20 and 515rcbc12 exhibit highly distant results, which is explained by their different geographical origin.}
+	\label{fig:alpha_diversity}
 \end{figure}
-This result is similar to the one that was obtained on the larger-scale analogue of this research performed by Thompson et al.\cite{Thompson2017}, pictured in the Figure \ref{fig:EMP_Silva}.
-
-Because these sequences were not found in the database, it can be assumed that they could have severely influenced diversity of the samples.
-It can be noticed from Table 1, that there is no significant correlation between any of the metadata categories and diversity, since the R-value is close to zero. Other methods of statistical analysis provided similar results (not presented here).. However, similar large-scale analyses reported that there is a correlation between richness and diversity and pH\cite{Thompson2017,Fierer2006,Wu2016}.  Most likely this happened due to low number of samples and low diversity of samples (all collected from the same biome).
-\begin{table}[H]
+\par
+In order to further investigate the uniformity and clustering of the samples, beta-diversity analysis was performed. The heatmap presented in Figure \ref{fig:beta_diversity} is a graphical representation of beta-diversity between the samples, with higher values meaning higher divergence between individual samples.
+\begin{figure}[ht!]
+	\includegraphics[width=\linewidth]{unweighted_beta.png}
+	\caption{Beta diversity (unweighted unifrac). Obvious outliers can be noted again, with samples 515rcbc12 and 515rcbc36 having the largest divergence with other samples.}
+	\label{fig:beta_diversity}
+\end{figure}
+\par
+ Sample \textit{515rcbc36} can be identified as the most divergent from the rest, with \textit{515rcbc12} being a close contender. And while \textit{515rcbc12} also is an outlier for the alpha diversity, with almost 2-fold difference in alpha -diversity compared to all other samples, \textit{515rcbc36} does not exhibit any severe difference compared to the rest. Moreover, \textit{515rcbc12} was collected in a different geographical location and different conditions, which can explain its high beta-diversity scores however \textit{515rcbc36} was collected in similar conditions as other samples. This leads to the assumption that that this sample was contaminated.
+\par
+Despite the 2 samples being the obvious outliers, sample \textit{515rcbc20}, which was collected in different conditions and displayed an outlying alpha diversity does not diverge severely from the other samples on this heatmap. This happens due to the nature of unweighted unifrac beta diversity metric - it takes into account the total number of OTUs in the sample, this nullifying the difference in the total number of samples.
+\par
+In order to determine whether the data obtained in a small-scale microbiome analysis is enough to find correlations between the metadata and diversity, several analyses were performed. Firstly, statistical methods such as ANOSIM\cite{CLARKE1993} were used, and results of this analysis can be seen in the table below.
+\begin{table}[ht!]
 	\begin{center}
 		\label{tab:table_correlation}
 		\begin{tabular}{c|c|c}
@@ -113,53 +111,53 @@ It can be noticed from Table 1, that there is no significant correlation between
 	\end{center}
 \end{table}
 \par
-In order to assess the composition of each sample, results from the sourcetracker analysis are presented in Figure \ref{fig:sourcetracker_heatmap}. It can be seen that most samples show highest relatedness to 3 different biomes - national park soil, field soil and agricultural soil, which is consistent with what would be expected. Sample \textit{515rcbc20} had to be excluded from the analysis due to having a very low number of OTUs observed (653), which prevents sourcetracker from producing sensible results, however the uniformity and good clustering of the rest of the samples is indirectly confirmed by this test as well. If the sample size was larger, the outliers and strange correlations, such as high proportion of wetland source in many samples could be explained, however it is impossible on this sample.
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{../sourcetracker/heatmap_perc.png}
+Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA and adonis confirmed this assumption and attempts to find non-linear correlations were not successful as well.
+\par
+
+In order to assess the composition of each sample, results from the sourcetracker analysis are presented in Figure \ref{fig:sourcetracker_heatmap}. The heatmap shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland, which in most is consistent with what would be expected. 
+
+\begin{figure}[ht!]
+	\includegraphics[width=\linewidth]{heatmap_perc.png}
 	\caption{Heatmap showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% because the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
-\par
-Another way to assess uniformity of the samples is the alpha diversity analysis, which assesses the number of unique OTU for each sample. 
-While different methods can be used, I chose the Chao1 metric, which estimates species richness based on a matrix of abundance data. 
-The alpha diversity is presented below (Fig. \ref{fig:alpha_diversity}) and shows the 2 outlying samples - 515rcbc12 and 515rcbc20 having an unusually high and low alpha-diversity respectively.
-\begin{figure}[H]
-	\captionsetup{width=\linewidth}
-	\includegraphics[width=\linewidth]{../analyses/figs/chao1_alpha.png}
-	\caption{Alpha diversity (Chao1) for each of 30 samples.Samples 515rcbc20 and 515rcbc12 are outliers, which is could be du to the fact that they were collected outside the main location of analysis (Gordon Square in Central London), in soil near canal and compost respectively.}
-	\label{fig:alpha_diversity}
-\end{figure}
 
 \par
+Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
+\par
+
+
+
+
+
+
 The beta-diversity matrix showcases the difference in richness between the samples. The heatmap presented on Figure \ref{fig:beta_diversity} 
 
-\begin{figure}[H]
-	\captionsetup{width=\linewidth}
-	\includegraphics[width=\linewidth]{../analyses/figs/unweighted_beta.png}
-	\caption{Beta diversity (unweighted unifrac). Obvious outliers can be noted again, with samples 515rcbc12 and 515rcbc36 having the largest distances from other samples.}
-	\label{fig:beta_diversity}
-\end{figure}
 
 
-
-
-\begin{figure}[H]
-	\captionsetup{width=\linewidth}
-	\includegraphics[width=\linewidth]{../taxonomy/top_10.png}
+\begin{figure}[ht!]
+	\includegraphics[width=\linewidth]{top_10.png}
 	\caption{Proportion of most popular phyla in samples. The green bar represents the only phylum from the Archea domain. These 10 phyla represent 96\% of species in our samples.}
 	\label{fig:top_taxa}
 \end{figure}
 %
 % DISCUSSION
 %
+\newpage
 \section{Discussion}
 OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results.
 \par
 
 Another issue that I can point out with the OTU picking method, is the limitations imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, already covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered up to 50\% of the databases.
+\par
+
+However, on a larger scale there is a correlation betwen species diversity and pH\cite{Thompson2017,Fierer2006,Wu2016}. The low statistical significance of such data in our samples can be explained by low number of samples and high similarity of conditions the samples were collected in.
+\\
+Since these sequences were not found in the databases it is unclear how much they could influence the diversity of the samples.
+
+
 
 \newpage
 \bibliographystyle{vancouver}
 \bibliography{/home/ilya/Documents/Citations/3301.bib}
-\end{multicols}
 \end{document}
