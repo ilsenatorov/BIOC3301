@@ -1,5 +1,4 @@
-\documentclass[12pt,twocolumn]{article}
-\usepackage[hmarginratio=1:1,top=15mm,left=15mm,columnsep=15pt]{geometry} 
+\documentclass[12pt,twocolumn]{article} %TWO COLUMNS
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{hyperref}
@@ -7,15 +6,17 @@
 \usepackage{titling} 
 \usepackage{abstract}
 \usepackage{titlesec}
-%\usepackage[utf8]{inputenc}
-%\usepackage[russian]{babel}
+\bibliographystyle{naturemag}
+\usepackage[hmarginratio=1:1,top=15mm,left=15mm,columnsep=15pt]{geometry}% MARGINS
+\usepackage[small,labelfont=bf,up,textfont=it,up]{caption} %CAPTIONS FORMAT
+%SECTIONS AND SUBSECTIONS
 \renewcommand\thesection{\Roman{section}} 
 \renewcommand\thesubsection{\roman{subsection}} 
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} 
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} 
 \titlespacing*{\section}
 {0pt}{\baselineskip}{\baselineskip}
-\usepackage[small,labelfont=bf,up,textfont=it,up]{caption}
+% TITLE AND ABSTRACT
 \renewcommand{\abstractnamefont}{\normalfont\bfseries}
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape}
 \pretitle{\begin{center}\Huge\bfseries} 
@@ -26,23 +27,27 @@
 \renewcommand{\maketitlehookd}{
 	\begin{abstract}
 		\noindent
-		some random stuff
+	 	Microbiome analysis is an area of research that is currently experiencing a reneissance. Due to a severe decrease in price of both the DNA sequencing and computational power in the recent years, this data-driven area of research is currently on the rise, with high number of researches being published. In order to determine whether it is possible to generate valid results from a small-scale analysis we took 30 samples of soil in Central London and used the High-Performance Computing clusters together with software for microbiome analysis to assess the uniformity of the samples and discover correlations between the chemical and biological content of the soil. This research was focused more on the aspects that complicate such analyses. The results show that while the samples that were collected did not provide valid scientific data on their own, they can be used as an external source of data for larger researches.
 	\end{abstract}
 }
+%INDENTS
 \setlength{\parindent}{7mm}
 \setlength{\parskip}{0mm}
 \setlength{\intextsep}{0mm}
 \setlength{\textfloatsep}{5mm}
+% DOCUMENT
 \begin{document}
 	
 \maketitle
-
+% IMPROVE THE INTRODUCTION
+%
+%
 \section{Introduction}
-Microbiome analysis is an area of research that relies heavily on large samples and big amounts of data. Since the correlations between the data itself and the metadata is rarely too strong, it is important to have a wide range of samples from different biomes in order to reliably report such correlations.
+Microbiome analysis is a data-driven area of research - it relies heavily on substantial quantities of data. It has been shown that correlations exist between the chemical and ecological properties of various biomes\cite{Thompson2017,Zhalnina2014,Martins2013}. However, studies that report such correlations often have a high number and diversity of samples, or even are based in samples collected by different groups of researchers, and small-scale microbiome analyses are rare.
 \par
-For that reason, one of the main areas of development in the field of microbiome analysis is the creation of a big databases with variety of samples from a range of biomes. The biggest development in this area is  EMP - Earth Microbiome Project\cite{Gilbert2014}. It was created in 2010 and focuses on creation of a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for criminologists and specialists in other area looking for insight into the microbial ecology of different areas.
+One of the main areas of development in the field of microbiome analysis in recent years was the creation of big databases with variety of samples from a range of biomes. The largest database right now is the EMP - Earth Microbiome Project\cite{Gilbert2014}. It was created in 2010 and focuses on creation of a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for specialists in other areas looking for insight into the microbial ecology of different locations and environments.
 \par
-However, as with other open-source or semi open-source projects, there is always a question of how reliable and useful a single dataset can be in such a massive database? In order to test this theory, I used the genetic data of micrbes from samples of soil collected by our research group in order to test how sensible can be the data acquired from a small-scale soil analysis.
+This research focuses on assessing whether a small-scale microbiome analysis provide valid scientific results on its own and also assesses validity of the data that was collected during our research and methods that were used. 
 \par
 The goals of the analysis were to check whether the samples we collected follow the general trends found within the EMP and to assess the small-scale result-based research in application to microbiome analysis.
 %
@@ -111,44 +116,44 @@ In order to determine whether the data obtained in a small-scale microbiome anal
 	\end{center}
 \end{table}
 \par
-Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA and adonis confirmed this assumption, attempts to find non-linear correlations were not successful as well.
+Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA\cite{Tang2016} and adonis confirmed this assumption, attempts to find non-linear correlations were not successful as well.
 \par
 The assessment of taxonomic composition of the samples was performed as well, with the taxonomic referencing database included in the SILVA database used to assign taxonomy to most of the OTUs. Figure \ref{fig:top_taxa} highlights the top 10 most abundant phyla across all of the samples. These 10 phyla represent 96\% of the sequences.
 \begin{figure}[ht!] %top phyla
 	\includegraphics[width=\linewidth]{top_10.png}
-	\caption{Proportion of most popular phyla in samples. The green bar represents the only phylum from the Archea domain. These 10 phyla represent 96\% of species in our samples.}
+	\caption{Proportion of most popular phyla in samples. The orange bar represents the only phylum from the Archea domain. These 10 phyla represent 96\% of species in our samples.}
 	\label{fig:top_taxa}
 \end{figure}
 \par
-The only phylum from the \textit{Archea} domain, \textit{Thaumarchaeota}, is the only \textit{Archea} phylum to be in the top 20 most abundant phyla, with the rest of sequences being from bacterial origin. This result is consistent with a similar research conducted by Zhalnina et al.\cite{Zhalnina2014}, in which they investigated the taxonomy of the Park Grass Experiment. The proportions of the most abundant phyla in our research is consistent with their result, speaks in favour of the validity of our samples.
+The only phylum from the \textit{Archea} domain is \textit{Thaumarchaeota} and the rest of the  sequences have a bacterial origin. This result is consistent with a similar research conducted by Zhalnina et al.\cite{Zhalnina2014}, in which they investigated the taxonomy of the Park Grass Experiment. The proportions of the most abundant phyla in our research is consistent with their result, speaks in favour of the validity of our samples.
 \par
-The sourcetracker analysis was performed to assess the relatedness of our samples to samples of soil collected by the researchers working on the EMP projects in different biomes around the world. Sourcetracker exploits a mathematical approach which assesses the proportion of each \textit{source} in each \textit{sink}. The results are presented in Figure \ref{fig:sourcetracker_heat map}. 
-\par
-The heat map shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland. The samples were collected in Gordon Square in Central London, a biome which is anthropomorphic, which can explain the high relatedness to agricultural soil and field soil. The unifying feature of such environments is heavy use of fertilizers, which leads to development of a specific ecosystem\cite{Zhalnina2014}.
-\par
-Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
+The sourcetracker analysis was performed to assess the relatedness of our samples to samples of soil collected by the researchers working on the EMP projects in different biomes around the world. Sourcetracker exploits a mathematical approach which assesses the proportion of each \textit{source} in each \textit{sink}. The results are presented in Figure \ref{fig:sourcetracker_heatmap}. 
 \begin{figure}[ht!] %sourcetracker
 	\includegraphics[width=\linewidth]{heatmap_perc.png}
 	\caption{heat map showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% since the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
+\par
+The heat map shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland. The samples were collected in Gordon Square in Central London, a biome which is anthropomorphic, which can explain the high relatedness to agricultural soil and field soil. The unifying feature of such environments is heavy use of fertilizers, which leads to development of a specific ecosystem\cite{Zhalnina2014}.
+\par
+Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
+
 
 
 \par
-
-
-
-
 
 %
 % DISCUSSION
 %
 
 \section{Discussion}
-OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results.
+The result of the OTU picking show that the approach based on OTU picking does not provide the most accurate results. The low coverage of even the most up-to-date databases such as SILVA combined with the diminishing property of the OTU picking process creates the need for more accurate methods of sequence assessment, for example Deblur\cite{Amir}.
+\par
+The issue that I can point out with the OTU picking method, is the limitations imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered  47\% of the SILVA database. This further proves that the OTU picking method is outdated, and with access to higher computational power, more accurate methods should be employed.
+\par
+As we can see from the results of alpha and beta diversity analysis, our samples form a uniform collection, with samples \textit{515rcbc12}, \textit{515rcbc20} and \textit{515rcbc36} being the outliers. And while the first two were expected outliers due to the altered condition they were collected in, sample \textit{515rcbc36} is an unpredicted outlier, since it had an identical metadata to other samples, which leads me to assumption that it was contaminated. However, further analysis is required to prove that assumption, which is out of scope of this research.
 \par
 
-Another issue that I can point out with the OTU picking method, is the limitations imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, already covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered up to 50\% of the databases.
 \par
 
 However, on a larger scale there is a correlation betwen species diversity and pH\cite{Thompson2017,Fierer2006,Wu2016}. The low statistical significance of such data in our samples can be explained by low number of samples and high similarity of conditions the samples were collected in.
@@ -158,6 +163,5 @@ Since these sequences were not found in the databases it is unclear how much the
 
 
 \newpage
-\bibliographystyle{vancouver}
 \bibliography{/home/ilya/Documents/Citations/3301.bib}
 \end{document}
