@@ -61,11 +61,11 @@ In order to analyse our samples, I used the QIIME scripts, such as core\_diversi
 \par
 A method that can be useful to determine whether the samples we collected are representative of the source, is pipeline presented in the sourcetracker package\cite{Knights2011}, which allows users to track proportion of each \textit{source} in each \textit{sink}, \textit{source} and \textit{sink} being different samples of soil from Release 1 of the EMP and our samples respectively. Sourcetracker package is available with QIIME, however Sourcetracker2 has been developed recently, which was used due to being more accurate. 
 \par
-After filtering the data, running Sourcetracker2 and visualising the results, \textit{heatmap} of how much of each source is present in each of our samples was produced. Since hen performing such an analysis it is important to set the correct values for different parameters, such as rarefaction depth and lower threshold for number of samples an OTU can be found in, this was performed a number of times with different parameters.
+After filtering the data, running Sourcetracker2 and visualising the results, \textit{heat map} of how much of each source is present in each of our samples was produced. Since hen performing such an analysis it is important to set the correct values for different parameters, such as rarefaction depth and lower threshold for number of samples an OTU can be found in, this was performed a number of times with different parameters.
 \par
 In an attempt to find a correlation between metadata and the diversity of our samples, scripts included in the QIIME package were used and metadata was transformed into numeric form, with results from \textit{HI3895 Soil testing kit} treated as values on exponential scale. Analysis was performed using ANOSIM\cite{CLARKE1993}, PERMANOVA\cite{Tang2016} and a collection of other statistical methods, where the distance matrix was analysed with respect to pH, potassium, nitrogen and phosphorus content.
 \par
-To assess the taxonomic composition of our samples, taxonomic assignment using the SILVA\cite{Quast2012} database was performed, and the uniformity of samples was assessed using visual plots that represent the proportion of each order in each sample. 
+To assess the taxonomic composition of our samples, taxonomic assignment using the SILVA\cite{Quast2012} database was performed, and the uniformity of samples was assessed using visual plots that represent the proportion of each phylum in each sample. 
 \par
 In general, the analysis after the OTU picking stage was mostly performed using various python packages, such as numpy, scipy, pandas, seaborn and matplotlib, which greatly aid in data visualisation and statistical calculations.
 %
@@ -78,25 +78,25 @@ This result is consistent with results obtained in the research performed by Tho
 \par
 Using the OTU table that was produced as a result of the OTU picking alpha diversity was measured, which assesses the number of unique OTU for each sample. While different methods can be used, I chose the Chao1 metric, which estimates species richness based on a matrix of abundance data. 
 The distribution of alpha diversities between the samples is presented below in Figure \ref{fig:alpha_diversity}.
-\begin{figure}[ht!]
+\begin{figure}[ht!] %alpha diversity
 	\includegraphics[width=\linewidth]{chao1_alpha.png}
 	\caption{Alpha diversity (Chao1) for each of 30 samples. Samples 515rcbc20 and 515rcbc12 exhibit highly distant results, which is explained by their different geographical origin.}
 	\label{fig:alpha_diversity}
 \end{figure}
 \par
-In order to further investigate the uniformity and clustering of the samples, beta-diversity analysis was performed. The heatmap presented in Figure \ref{fig:beta_diversity} is a graphical representation of beta-diversity between the samples, with higher values meaning higher divergence between individual samples.
-\begin{figure}[ht!]
+In order to further investigate the uniformity and clustering of the samples, beta-diversity analysis was performed. The heat map presented in Figure \ref{fig:beta_diversity} is a graphical representation of beta-diversity between the samples, with higher values meaning higher divergence between individual samples.
+\begin{figure}[ht!] %beta diversity
 	\includegraphics[width=\linewidth]{unweighted_beta.png}
 	\caption{Beta diversity (unweighted unifrac). Obvious outliers can be noted again, with samples 515rcbc12 and 515rcbc36 having the largest divergence with other samples.}
 	\label{fig:beta_diversity}
 \end{figure}
 \par
- Sample \textit{515rcbc36} can be identified as the most divergent from the rest, with \textit{515rcbc12} being a close contender. And while \textit{515rcbc12} also is an outlier for the alpha diversity, with almost 2-fold difference in alpha -diversity compared to all other samples, \textit{515rcbc36} does not exhibit any severe difference compared to the rest. Moreover, \textit{515rcbc12} was collected in a different geographical location and different conditions, which can explain its high beta-diversity scores however \textit{515rcbc36} was collected in similar conditions as other samples. This leads to the assumption that that this sample was contaminated.
+ Sample \textit{515rcbc36} can be identified as the most divergent from the rest, with \textit{515rcbc12} being a close contender. And while \textit{515rcbc12} also is an outlier for the alpha diversity, with almost 2-fold difference in alpha -diversity compared to all other samples, \textit{515rcbc36} does not exhibit any severe difference compared to the rest. Moreover, \textit{515rcbc12} was collected in a different geographical location and different conditions, which can explain its high beta-diversity scores, however \textit{515rcbc36} was collected in similar conditions as other samples. This leads to the assumption that that this sample was contaminated.
 \par
-Despite the 2 samples being the obvious outliers, sample \textit{515rcbc20}, which was collected in different conditions and displayed an outlying alpha diversity does not diverge severely from the other samples on this heatmap. This happens due to the nature of unweighted unifrac beta diversity metric - it takes into account the total number of OTUs in the sample, this nullifying the difference in the total number of samples.
+Despite the two aforementioned samples being the obvious outliers, sample \textit{515rcbc20}, which was collected in different conditions and displayed an atypical alpha diversity does not differ severely from the other samples on this heat map. This happens due to the nature of unweighted unifrac beta diversity metric - it takes into account the total number of OTUs in the sample, thus nullifying the difference in the total number of samples.
 \par
-In order to determine whether the data obtained in a small-scale microbiome analysis is enough to find correlations between the metadata and diversity, several analyses were performed. Firstly, statistical methods such as ANOSIM\cite{CLARKE1993} were used, and results of this analysis can be seen in the table below.
-\begin{table}[ht!]
+In order to determine whether the data obtained in a small-scale microbiome analysis is enough to find correlations between the metadata and diversity, several statistical analyses were performed. First, statistical method of ecology analysis ANOSIM\cite{CLARKE1993} was used together with the collected metadata and distance matrices to find any correlations, results are presented in Table 1.
+\begin{table}[ht!] %statistical table
 	\begin{center}
 		\label{tab:table_correlation}
 		\begin{tabular}{c|c|c}
@@ -107,43 +107,43 @@ In order to determine whether the data obtained in a small-scale microbiome anal
 			Nitrogen & 0.120 & 0.120 \\
 			Phosphorus & 0.201 & 0.058\\
 		\end{tabular}
-		\caption{Correlation between metadata and beta-diversity, calculated using ANOSIM\cite{CLARKE1993} methodic.}
+		\caption{Correlation between metadata and beta-diversity, calculated using ANOSIM\cite{CLARKE1993} method.}
 	\end{center}
 \end{table}
 \par
-Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA and adonis confirmed this assumption and attempts to find non-linear correlations were not successful as well.
+Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA and adonis confirmed this assumption, attempts to find non-linear correlations were not successful as well.
 \par
-
-In order to assess the composition of each sample, results from the sourcetracker analysis are presented in Figure \ref{fig:sourcetracker_heatmap}. The heatmap shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland, which in most is consistent with what would be expected. 
-
-\begin{figure}[ht!]
-	\includegraphics[width=\linewidth]{heatmap_perc.png}
-	\caption{Heatmap showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% because the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
-	\label{fig:sourcetracker_heatmap}
-\end{figure}
-
-\par
-Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
-\par
-
-
-
-
-
-
-The beta-diversity matrix showcases the difference in richness between the samples. The heatmap presented on Figure \ref{fig:beta_diversity} 
-
-
-
-\begin{figure}[ht!]
+The assessment of taxonomic composition of the samples was performed as well, with the taxonomic referencing database included in the SILVA database used to assign taxonomy to most of the OTUs. Figure \ref{fig:top_taxa} highlights the top 10 most abundant phyla across all of the samples. These 10 phyla represent 96\% of the sequences.
+\begin{figure}[ht!] %top phyla
 	\includegraphics[width=\linewidth]{top_10.png}
 	\caption{Proportion of most popular phyla in samples. The green bar represents the only phylum from the Archea domain. These 10 phyla represent 96\% of species in our samples.}
 	\label{fig:top_taxa}
 \end{figure}
+\par
+The only phylum from the \textit{Archea} domain, \textit{Thaumarchaeota}, is the only \textit{Archea} phylum to be in the top 20 most abundant phyla, with the rest of sequences being from bacterial origin. This result is consistent with a similar research conducted by Zhalnina et al.\cite{Zhalnina2014}, in which they investigated the taxonomy of the Park Grass Experiment. The proportions of the most abundant phyla in our research is consistent with their result, speaks in favour of the validity of our samples.
+\par
+The sourcetracker analysis was performed to assess the relatedness of our samples to samples of soil collected by the researchers working on the EMP projects in different biomes around the world. Sourcetracker exploits a mathematical approach which assesses the proportion of each \textit{source} in each \textit{sink}. The results are presented in Figure \ref{fig:sourcetracker_heat map}. 
+\par
+The heat map shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland. The samples were collected in Gordon Square in Central London, a biome which is anthropomorphic, which can explain the high relatedness to agricultural soil and field soil. The unifying feature of such environments is heavy use of fertilizers, which leads to development of a specific ecosystem\cite{Zhalnina2014}.
+\par
+Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
+\begin{figure}[ht!] %sourcetracker
+	\includegraphics[width=\linewidth]{heatmap_perc.png}
+	\caption{heat map showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% since the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
+	\label{fig:sourcetracker_heatmap}
+\end{figure}
+
+
+\par
+
+
+
+
+
 %
 % DISCUSSION
 %
-\newpage
+
 \section{Discussion}
 OTU picking strategy is outdated, and with increase of computational power and decrease in price of core-hours of High Performance Computer clusters, other techniques (for example Deblur\cite{Amir}) will provide more accurate results.
 \par
