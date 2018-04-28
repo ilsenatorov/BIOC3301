@@ -41,3 +41,4 @@ qiime_tmp/
 !report/Report.tex
 !report/figs/**
 !report/figs/
+!report/figures.ipynb

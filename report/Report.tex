@@ -31,9 +31,9 @@
 	\end{abstract}
 }
 %INDENTS
-\setlength{\parindent}{7mm}
+\setlength{\parindent}{5mm}
 \setlength{\parskip}{0mm}
-\setlength{\intextsep}{0mm}
+\setlength{\intextsep}{3mm}
 \setlength{\textfloatsep}{5mm}
 % DOCUMENT
 \begin{document}
@@ -43,7 +43,7 @@
 %
 %
 \section{Introduction}
-Microbiome analysis is a data-driven area of research - it relies heavily on substantial quantities of data. It has been shown that correlations exist between the chemical and ecological properties of various biomes\cite{Thompson2017,Zhalnina2014,Martins2013}. However, studies that report such correlations often have a high number and diversity of samples, or even are based in samples collected by different groups of researchers, and small-scale microbiome analyses are rare.
+The science of  It has been shown that correlations exist between the chemical and ecological properties of various biomes\cite{Thompson2017,Zhalnina2014,Martins2013}. However, studies that report such correlations often have a high number and diversity of samples, or even are based in samples collected by different groups of researchers, and small-scale microbiome analyses are rare.
 \par
 One of the main areas of development in the field of microbiome analysis in recent years was the creation of big databases with variety of samples from a range of biomes. The largest database right now is the EMP - Earth Microbiome Project\cite{Gilbert2014}. It was created in 2010 and focuses on creation of a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for specialists in other areas looking for insight into the microbial ecology of different locations and environments.
 \par
@@ -116,7 +116,7 @@ In order to determine whether the data obtained in a small-scale microbiome anal
 	\end{center}
 \end{table}
 \par
-Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA\cite{Tang2016} and adonis confirmed this assumption, attempts to find non-linear correlations were not successful as well.
+Since the R-value is close to 0 for all four metrics, it can be safely assumed that there is no correlation between metadata and the diversity in our samples. Other methods of statistical analysis, such as PERMANOVA\cite{Tang2016} confirmed this assumption, attempts to find non-linear correlations were not successful as well.
 \par
 The assessment of taxonomic composition of the samples was performed as well, with the taxonomic referencing database included in the SILVA database used to assign taxonomy to most of the OTUs. Figure \ref{fig:top_taxa} highlights the top 10 most abundant phyla across all of the samples. These 10 phyla represent 96\% of the sequences.
 \begin{figure}[ht!] %top phyla
@@ -127,19 +127,17 @@ The assessment of taxonomic composition of the samples was performed as well, wi
 \par
 The only phylum from the \textit{Archea} domain is \textit{Thaumarchaeota} and the rest of the  sequences have a bacterial origin. This result is consistent with a similar research conducted by Zhalnina et al.\cite{Zhalnina2014}, in which they investigated the taxonomy of the Park Grass Experiment. The proportions of the most abundant phyla in our research is consistent with their result, speaks in favour of the validity of our samples.
 \par
+
 The sourcetracker analysis was performed to assess the relatedness of our samples to samples of soil collected by the researchers working on the EMP projects in different biomes around the world. Sourcetracker exploits a mathematical approach which assesses the proportion of each \textit{source} in each \textit{sink}. The results are presented in Figure \ref{fig:sourcetracker_heatmap}. 
 \begin{figure}[ht!] %sourcetracker
 	\includegraphics[width=\linewidth]{heatmap_perc.png}
-	\caption{heat map showing the percentage of each source in each sink. The sum of values for each sample (columns) is not equal to 100\% since the "Unknown" column is not shown. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, field soil and wetland soil.}
+	\caption{Heat map showing the percentage of each source in each sink, filtered to represent the top 25 sources. The "Unknown" column is not presented as well, however it represents a mean of 44\% of sources in each sink. As we can see there are 4 prominent sources in most sinks - agricultural soil, national park soil, wetland soil and field soil, which have a mean percentage of over 5\%.}
 	\label{fig:sourcetracker_heatmap}
 \end{figure}
 \par
 The heat map shows that most samples have high relatedness to 4 different biomes - national park soil, field soil, agricultural soil and wetland. The samples were collected in Gordon Square in Central London, a biome which is anthropomorphic, which can explain the high relatedness to agricultural soil and field soil. The unifying feature of such environments is heavy use of fertilizers, which leads to development of a specific ecosystem\cite{Zhalnina2014}.
 \par
 Sample \textit{515rcbc20} had to be excluded from the analysis due to low number of OTUs observed (653). Despite the peculiarity of some results of the sourcetracker analysis, in general it confirms the uniformity and good clustering of the the samples. Low number of samples collected prevents us from making any further assumptions about the outliers and peculiar correlations between the EMP soil data and the samples, and further research is required to explain high proportion of wetland source in many samples and other aberrations.
-
-
-
 \par
 
 %
@@ -151,15 +149,12 @@ The result of the OTU picking show that the approach based on OTU picking does n
 \par
 The issue that I can point out with the OTU picking method, is the limitations imposed by the databases. SILVA database currently contains 177222 sequences, which means that our study, while being rather small, covered almost 10\% of the database. Thompson et al.\cite{Thompson2017} report that a study they performed using just under 100 samples from different biomes covered  47\% of the SILVA database. This further proves that the OTU picking method is outdated, and with access to higher computational power, more accurate methods should be employed.
 \par
-As we can see from the results of alpha and beta diversity analysis, our samples form a uniform collection, with samples \textit{515rcbc12}, \textit{515rcbc20} and \textit{515rcbc36} being the outliers. And while the first two were expected outliers due to the altered condition they were collected in, sample \textit{515rcbc36} is an unpredicted outlier, since it had an identical metadata to other samples, which leads me to assumption that it was contaminated. However, further analysis is required to prove that assumption, which is out of scope of this research.
+As we can see from the results of alpha and beta diversity analysis, our samples form a uniform collection, with samples \textit{515rcbc12}, \textit{515rcbc20} and \textit{515rcbc36} being the outliers. And while the first two were expected outliers due to the altered condition they were collected in, sample \textit{515rcbc36} is an unpredicted outlier, since it had an identical metadata to other samples, which leads me to assumption that it was contaminated. However, further analysis is required to prove that assumption.
 \par
-
+The uniformity and tight clustering of the samples, while validating the dataset for comparison with other datasets at the same time hinders any attempts to discover correlations between the genetic data and metadata unsuccessful. In order to find any correlation a purposeful diversification of samples is required, such as variance of location, season or other conditions. Since 27 of the samples were collected in the same location at the same time, there is very low variance in the samples and the ауц outliers can only provide anecdotal evidence. If a similar experiment is to be performed by other researchers, diversification of samples should be considered a paramount step.
 \par
-
-However, on a larger scale there is a correlation betwen species diversity and pH\cite{Thompson2017,Fierer2006,Wu2016}. The low statistical significance of such data in our samples can be explained by low number of samples and high similarity of conditions the samples were collected in.
-\\
-Since these sequences were not found in the databases it is unclear how much they could influence the diversity of the samples.
-
+In conclusion, it must be noted that the samples provide a good addition to the existing microbiome databases such as EMP, since it was confirmed by multiple \textit{in silico} tests that the protocol of extracting the DNA from samples was executed without major complications. However, stand-alone scientific value of the dataset is minuscule, due to absence of correlation between the chemical composition of the samples and the DNA sequences extracted. 
+ 
 
 
 \newpage
