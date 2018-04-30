@@ -7,7 +7,7 @@
 \usepackage{abstract}
 \usepackage{titlesec}
 \usepackage{enumerate}
-\bibliographystyle{naturemag}
+\bibliographystyle{vancouver}
 \usepackage[hmarginratio=1:1,top=15mm,left=15mm,columnsep=15pt]{geometry}% MARGINS
 \usepackage[small,labelfont=bf,up,textfont=it,up]{caption} %CAPTIONS FORMAT
 %SECTIONS AND SUBSECTIONS
@@ -28,7 +28,7 @@
 \renewcommand{\maketitlehookd}{
 	\begin{abstract}
 		\noindent
-	 	Microbiome analysis is an area of research that is currently experiencing a major growth, with over 10000 articles published on the topic in the last 5 years. A severe decrease in price of both the DNA sequencing and computational power in the recent years, led to this data-driven area of research becoming more accessible. In order to determine whether it is possible to generate valid results from a small-scale analysis, 30 samples of soil were collected in Central London and High-Performance Computing clusters were used together with specialised software to assess the uniformity of the samples and discover correlations between the chemical and biological content. This paper will be focused on the aspects that complicated the analysis in order to create a guideline of what to avoid during such research and will highlight that while the samples that were collected did not provide valid scientific data on their own, they can be used as an external source of data for larger investigations.
+	 	
 	\end{abstract}
 }
 %INDENTS
@@ -43,12 +43,12 @@
 % IMPROVE THE INTRODUCTION
 %
 %
+\section{Abstract}
+Microbiome analysis is an area of research that is currently experiencing a major growth, with over 10000 articles published on the topic in the last 5 years. A severe decrease in price of both the DNA sequencing and computational power in the recent years, led to this data-driven area of research becoming more accessible. In order to determine whether it is possible to generate valid results from a small-scale analysis, 30 samples of soil were collected in Central London and High-Performance Computing clusters were used together with specialised software to assess the uniformity of the samples and discover correlations between the chemical and biological content. This paper will be focused on three main aspects - assessing the validity of the data for further use by other researchers, investigating the relationships that exist between the samples and analysis of the issues that hamper the research on a dataset of low diversity and size.
 \section{Introduction}
-One of the main areas of development in the field of microbiome analysis in recent years was the creation of big databases with variety of samples from a range of biomes. The most successful project in this area is the EMP - Earth Microbiome Project\cite{Gilbert2014}. It was started in 2010 and focuses on developing a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for specialists in other areas looking for insight into the microbial ecology of different locations and environments. The samples that were collected during our research could potentially be included in the EMP, however the assessment of validity of the genetic sequences extracted should be performed before this can happen.
+One of the main areas of development in the field of microbiome analysis in recent years was the creation of big databases with a variety of samples from a range of biomes. The most successful project in this area is the EMP - Earth Microbiome Project\cite{Gilbert2014}. It was started in 2010 and focuses on developing a global catalogue of Earth's microbial diversity, which can be used not only to perform studies on large datasets in order to find correlations within them, but also as a point of reference for specialists in other areas looking for insight into the microbial ecology of different locations and environments. The samples that were collected during our research could potentially be included in the EMP however, the assessment of validity of the genetic sequences extracted should be performed.
 \par
-The research described in this paper focuses on performing the assessment validity of genetic data that was collected using low-grade equipment, as well as investigating whether a small-scale microbiome analysis in general can provide valid scientific results. The low number of samples (30) that were collected during this experiment and the low diversity of conditions they were collected in, created an array of problems that are going to be discussed in this paper.
-\par
-Large-scale analyses that were performed over a wide time-scale or over a wide range of geographical locations managed to find various correlations within the datasets they collected. It has been shown that correlations exist between the chemical and microecological properties of various biomes\cite{Thompson2017,Zhalnina2014,Martins2013}, as well as between the eukaryotic and prokaryotic content. However, studies that report such correlations often have a high number and diversity of samples or are based on samples collected by different groups of researchers so small-scale microbiome analyses are rare. Statistical significance of such correlations within a small dataset will be assessed.
+The research described in this paper focuses on performing such task, as well as investigating whether a small-scale microbiome analysis, in general, can provide valid scientific results. However, the low number of samples (30) that were collected during this experiment, the low diversity of conditions they were collected in, coupled with inadequate quality of some kits used for analysis created an array of problems. 
 \par
 %
 % METHODS
@@ -147,7 +147,7 @@ As we can see from the results of alpha and beta diversity analysis, our samples
 \par
 The uniformity and tight clustering of the samples, while validating the dataset for comparison with other datasets at the same time hinders any attempts to discover correlations between the genetic data and metadata. In order to find any correlation a purposeful diversification of samples is required, such as variance of location, season or other conditions. Since 27 of the samples were collected in the same location at the same time, there is very low variance in the samples and the few outliers can only provide anecdotal evidence. If a similar experiment is to be performed by other researchers, diversification of samples should be considered a paramount step.
 \par
-In addition to diversification of samples, high-grade methods of metadata collection is required. While the kits that were provided by University College of London provide a general idea of concentrations of various ions in the soil, they do not match the level of this research.
+In addition to diversification of samples, high-grade methods of metadata collection are required. While the kits that were provided by University College of London give a general idea of concentrations of various ions in the soil, they do not match the level of this research.
 \par
 In conclusion, it must be noted that the samples provide a good addition to the existing microbiome databases such as EMP, since it was confirmed by multiple \textit{in silico} tests that the protocol of extracting the DNA from samples was executed without major complications. However, stand-alone scientific value of the dataset is minuscule, due to absence of correlation between the chemical composition of the samples and the DNA sequences extracted. In order to obtain data that can provide researchers with statistically significant results, the diversity of samples, methods of metadata collection must be improved and use of reference-free sequence analysis techniques is preferential.
  

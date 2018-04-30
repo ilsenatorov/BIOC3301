@@ -1,6 +1,6 @@
 ### HIDDEN FILES
-#
-#
+
+
 .*
 !.gitignore
 !.bashrc
@@ -17,11 +17,34 @@
 *__*__*
 *.biom
 *.pyc
-*.fls
+
+
+### LATEX
+
+
 *.aux
-*.fdb_latexmk
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
 *.bbl
 *.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
 
 
 ### DIRECTORIES
@@ -31,7 +54,6 @@
 17/
 18/
 networks/
-report/**
 qiime_tmp/
 
 
