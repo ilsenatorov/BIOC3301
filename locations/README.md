@@ -14,7 +14,7 @@
 
 ###### Gordon square
 
-![gordon_18](./screenshots/18_gordon,png)
+![gordon_18](./screenshots/18_gordon.png)
 
 ***
 
